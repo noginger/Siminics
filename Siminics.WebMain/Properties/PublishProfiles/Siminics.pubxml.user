@@ -12,14 +12,23 @@
     <File Include="Areas/Manage/Views/Login/Index.cshtml">
       <publishTime>08/16/2017 10:57:30</publishTime>
     </File>
+    <File Include="Areas/Manage/Views/Main/Index.cshtml">
+      <publishTime>08/17/2017 16:03:36</publishTime>
+    </File>
     <File Include="Areas/Manage/Views/web.config">
       <publishTime>08/15/2017 16:44:25</publishTime>
     </File>
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>02/22/2013 08:43:40</publishTime>
     </File>
+    <File Include="bin/AutoMapper.dll">
+      <publishTime>08/22/2013 16:47:04</publishTime>
+    </File>
     <File Include="bin/BaseLibrary.Common.dll">
       <publishTime>08/16/2017 15:38:57</publishTime>
+    </File>
+    <File Include="bin/BaseLibrary.MySqlConfig.dll">
+      <publishTime>08/17/2017 14:41:44</publishTime>
     </File>
     <File Include="bin/BaseLibrary.SqlConfig.dll">
       <publishTime>08/16/2017 15:38:59</publishTime>
@@ -99,6 +108,9 @@
     <File Include="bin/Microsoft.Web.Infrastructure.dll">
       <publishTime>07/25/2012 11:48:56</publishTime>
     </File>
+    <File Include="bin/MySql.Data.dll">
+      <publishTime>06/17/2016 18:29:10</publishTime>
+    </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>08/03/2014 20:33:56</publishTime>
     </File>
@@ -142,16 +154,16 @@
       <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/Siminics.BL.dll">
-      <publishTime>08/16/2017 15:38:59</publishTime>
+      <publishTime>08/17/2017 14:52:01</publishTime>
     </File>
     <File Include="bin/Siminics.DAL.dll">
-      <publishTime>08/16/2017 15:38:59</publishTime>
+      <publishTime>08/17/2017 14:41:45</publishTime>
     </File>
     <File Include="bin/Siminics.Model.dll">
       <publishTime>08/16/2017 15:38:58</publishTime>
     </File>
     <File Include="bin/Siminics.WebMain.dll">
-      <publishTime>08/16/2017 15:39:07</publishTime>
+      <publishTime>08/17/2017 16:23:50</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>01/28/2015 04:04:30</publishTime>
@@ -235,7 +247,7 @@
       <publishTime>01/28/2015 04:04:32</publishTime>
     </File>
     <File Include="Content/css/base.css">
-      <publishTime>08/15/2017 16:53:55</publishTime>
+      <publishTime>08/17/2017 16:16:09</publishTime>
     </File>
     <File Include="Content/css/login.css">
       <publishTime>08/15/2017 16:53:55</publishTime>
@@ -591,6 +603,9 @@
     <File Include="Content/Images/mail.png">
       <publishTime>08/15/2017 16:53:56</publishTime>
     </File>
+    <File Include="Content/Images/manage_back.png">
+      <publishTime>08/17/2017 16:15:58</publishTime>
+    </File>
     <File Include="Content/Images/notice_line.jpg">
       <publishTime>08/15/2017 16:53:56</publishTime>
     </File>
@@ -838,7 +853,7 @@
       <publishTime>08/15/2017 16:42:30</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>08/16/2017 15:39:09</publishTime>
+      <publishTime>08/17/2017 16:23:52</publishTime>
     </File>
   </ItemGroup>
 </Project>

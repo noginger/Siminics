@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "首页";
+    Layout = "~/Views/Shared/_Manage_Frame.cshtml";
+}
+
+<style type="text/css">
+    .main_left {
+        width: 40%;
+        height: 150px;
+        float: left;
+        margin-left: 50px;
+        margin-top: 20px;
+        border: 1px solid #eee;
+        background-color: #9ad3de;
+        color: #fff;
+    }
+
+    .main_center {
+        width: 25%;
+        height: 150px;
+        float: left;
+        border: 1px solid #eee;
+        margin: 20px 15px 0 15px;
+    }
+
+    .main_right {
+        width: 25%;
+        height: 150px;
+        float: left;
+        border: 1px solid #eee;
+        margin-top: 20px;
+    }
+
+    .main_bottom {
+        width: 1264px;
+        height: 200px;
+        border: 1px solid #eee;
+        margin: 0 0 0 50px;
+    }
+
+    .admin {
+        font-size: 14px;
+        margin: 15px;
+        display: block;
+    }
+</style>
+<div class="body_center">
+    <div class="main_left">
+        <span class="admin">管理员 @ViewBag.SysUser.SysUserInfo.UserName,已登录|<a href="/login/loginout" style="color: white;">退出</a></span>
+        <span class="admin">真实姓名:@ViewBag.SysUser.SysUserInfo.RealName</span>
+        <span class="admin">上次登录时间：@ViewBag.SysUser.SysUserInfo.LastLoginDate</span>
+        <span class="admin">上次登录IP：@ViewBag.SysUser.SysUserInfo.LoginIp</span>
+    </div>
+    <div class="main_center">
+        <div style="text-align: center;margin:8%;font-size: 15px;">
+            <a href="/Order/Customer?s_text=&s_status=0&s_type=1" style="display: block;font-size: 40pt;">@ViewBag.CustomerCount</a><br />
+            新增用户
+        </div>
+    </div>
+    <div class="main_right">
+        <div style="text-align: center;margin:8%;font-size: 15px;">
+            <a href="/Order/Customer?s_text=&s_status=0&s_type=2" style="display: block;font-size: 40pt;">@ViewBag.RenewCount</a><br />
+            新订单
+        </div>
+    </div>
+    <div class="clear"></div>
+
+    <div style="width: 1264px;margin-left:50px;margin-top:50px;margin-bottom: 10px;font-size: 15px;">最新日志</div>
+    <div class="main_bottom">
+
+    </div>
+</div>

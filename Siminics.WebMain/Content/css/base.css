@@ -24,9 +24,10 @@ input, button
 }
 
 body
-{ color:#000;
+{   color:#000;
     font-size: 12px; width:100%;
     font-family:"宋体";
+    background: url(../images/manage_back.png);
 }
 a
 {

@@ -48,10 +48,6 @@
       <Project>{569d0c85-dc89-4b38-92e5-29f6103288eb}</Project>
       <Name>BaseLibrary.Common</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BaseLibrary.SqlConfig\BaseLibrary.SqlConfig.csproj">
-      <Project>{1e1dc4ab-eefd-4656-a1f6-a33698a5494c}</Project>
-      <Name>BaseLibrary.SqlConfig</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Siminics.DAL\Siminics.DAL.csproj">
       <Project>{1e5d9738-0ca6-40a6-a8df-43c4f45dfd29}</Project>
       <Name>Siminics.DAL</Name>

@@ -4,9 +4,10 @@ using System.Linq;
 using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
-using BaseLibrary.MySqlConfig;
 using Siminics.Model;
 using System.Data.SqlClient;
+using MySql.Data.MySqlClient;
+using MySqlHelper = BaseLibrary.MySqlConfig.MySqlHelper;
 
 namespace Siminics.DAL
 {
@@ -34,33 +35,32 @@ namespace Siminics.DAL
             if (string.IsNullOrEmpty(userInfo.UserName) || string.IsNullOrEmpty(userInfo.PassWord))
                 return new SysUserInfo();
 
-            string sql = "select * from sysuser where UserName='{0}' and PassWord='{1}' and IsActive=1";
+            string sql = string.Format("select * from sysuser where UserName='{0}' and PassWord='{1}' and IsActive=1",userInfo.UserName,userInfo.PassWord);
+
+             var entity = MySqlHelper.ExecuteObject<SysUserInfo>(sql, null);
+
+            if (entity == null || entity.UserId <= 0)
+                return new SysUserInfo();
+
+            entity.LastLoginIp = entity.LoginIp;
+            entity.LastLoginDate = entity.LoginDate;
+
+            entity.LoginIp = userInfo.LoginIp;
+            entity.LoginDate = DateTime.Now;
+
+            MySqlParameter[] parameters = new MySqlParameter []
+            {
+                new MySqlParameter("@LastLoginIp",entity.LastLoginIp),
+                new MySqlParameter("@LastLoginDate",entity.LastLoginDate),
+                new MySqlParameter("@LoginIp",entity.LoginIp),
+                new MySqlParameter("@LoginDate",entity.LoginDate),
+                new MySqlParameter("@UserId",entity.UserId),
+            };
+
+            MySqlHelper.ExecuteNonQuery(MySqlHelper.ConnectionString, @"update sysuser set LastLoginIp=@LastLoginIp,LastLoginDate=@LastLoginDate,LoginIp=@LoginIp,LoginDate=@LoginDate 
+                                                                        Where UserId=@UserId", parameters);
             
-            //MySqlHelper.ExecuteObject<SysUserInfo>(sql,null);
-            return new SysUserInfo();
-
-            //var entity = Context.Sql(string.Format("select * from sysuser where UserName='{0}' and PassWord='{1}' and IsActive=1",
-            //                              userInfo.UserName, userInfo.PassWord))
-            //        .QuerySingle<SysUserInfo>();
-            //if (entity == null || entity.UserId <= 0)
-            //    return new SysUserInfo();
-
-            //entity.LastLoginIp = entity.LoginIp;
-            //entity.LastLoginDate = entity.LoginDate;
-
-            //entity.LoginIp = userInfo.LoginIp;
-            //entity.LoginDate =DateTime.Now;
-
-            //int rowsAffected = Context.Update(TableName)
-            //    .Column("LastLoginIp", entity.LastLoginIp)
-            //    .Column("LastLoginDate", entity.LastLoginDate)
-            //    .Column("LoginIp", entity.LoginIp)
-            //    .Column("LoginCount", entity.LoginCount + 1)
-            //    .Column("LoginDate", entity.LoginDate)
-            //    .Where("UserId", entity.UserId)
-            //    .Execute();
-
-            //return entity;
+            return entity;
         }
 
         #endregion

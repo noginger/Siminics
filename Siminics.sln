@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siminics.BL", "Siminics.BL\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Siminics.Model", "Siminics.Model\Siminics.Model.csproj", "{405CFFE0-2A74-443B-8F00-4F19CA9E9C2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseLibrary.SqlConfig", "BaseLibrary.SqlConfig\BaseLibrary.SqlConfig.csproj", "{1E1DC4AB-EEFD-4656-A1F6-A33698A5494C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseLibrary.Common", "BaseLibrary.Common\BaseLibrary.Common.csproj", "{569D0C85-DC89-4B38-92E5-29F6103288EB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cee.Tools", "Cee.Tools\Cee.Tools.csproj", "{CDBB08A4-CDF8-49E9-A28F-41F01BF46389}"
@@ -37,10 +35,6 @@ Global
 		{405CFFE0-2A74-443B-8F00-4F19CA9E9C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{405CFFE0-2A74-443B-8F00-4F19CA9E9C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{405CFFE0-2A74-443B-8F00-4F19CA9E9C2C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1E1DC4AB-EEFD-4656-A1F6-A33698A5494C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E1DC4AB-EEFD-4656-A1F6-A33698A5494C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E1DC4AB-EEFD-4656-A1F6-A33698A5494C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E1DC4AB-EEFD-4656-A1F6-A33698A5494C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{569D0C85-DC89-4B38-92E5-29F6103288EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{569D0C85-DC89-4B38-92E5-29F6103288EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{569D0C85-DC89-4B38-92E5-29F6103288EB}.Release|Any CPU.ActiveCfg = Release|Any CPU

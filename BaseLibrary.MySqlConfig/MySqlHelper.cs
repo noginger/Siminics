@@ -24,20 +24,11 @@ namespace BaseLibrary.MySqlConfig
         /// 超时时间
         /// </summary>
         public static int CommandTimeOut = 600;
-
-        /// <summary>
-        ///初始化MySqlHelper实例
-        /// </summary>
-        /// <param name="connectionString">数据库连接字符串</param>
-        public MySqlHelper()
-        {
-            this.ConnectionString = ConfigurationManager.ConnectionStrings["connStr"].ToString();
-        }
-
+        
         /// <summary>
         /// 数据库连接字符串
         /// </summary>
-        public string ConnectionString { get; set; }
+        public static string ConnectionString {get { return ConfigurationManager.ConnectionStrings["connStr"].ToString(); }}
 
         #region 实例方法
 
@@ -916,37 +907,37 @@ namespace BaseLibrary.MySqlConfig
     /// </summary>
     public sealed partial class MySqlHelper
     {
-        #region 实例方法
+        //#region 实例方法
 
-        public T ExecuteObject<T>(string commandText, params MySqlParameter[] parms)
-        {
-            return ExecuteObject<T>(this.ConnectionString, commandText, parms);
-        }
+        //public T ExecuteObject<T>(string commandText, params MySqlParameter[] parms)
+        //{
+        //    return ExecuteObject<T>(this.ConnectionString, commandText, parms);
+        //}
 
-        public List<T> ExecuteObjects<T>(string commandText, params MySqlParameter[] parms)
-        {
-            return ExecuteObjects<T>(this.ConnectionString, commandText, parms);
-        }
+        //public List<T> ExecuteObjects<T>(string commandText, params MySqlParameter[] parms)
+        //{
+        //    return ExecuteObjects<T>(this.ConnectionString, commandText, parms);
+        //}
 
-        #endregion
+        //#endregion
 
         #region 静态方法
 
-        public static T ExecuteObject<T>(string connectionString, string commandText, params MySqlParameter[] parms)
+        public static T ExecuteObject<T>(string commandText, params MySqlParameter[] parms)
         {
             //DataTable dt = ExecuteDataTable(connectionString, commandText, parms);
             //return AutoMapper.Mapper.DynamicMap<List<T>>(dt.CreateDataReader()).FirstOrDefault();
-            using (MySqlDataReader reader = ExecuteDataReader(connectionString, commandText, parms))
+            using (MySqlDataReader reader = ExecuteDataReader(ConnectionString, commandText, parms))
             {
                 return AutoMapper.Mapper.DynamicMap<List<T>>(reader).FirstOrDefault();
             }
         }
 
-        public static List<T> ExecuteObjects<T>(string connectionString, string commandText, params MySqlParameter[] parms)
+        public static List<T> ExecuteObjects<T>(string commandText, params MySqlParameter[] parms)
         {
             //DataTable dt = ExecuteDataTable(connectionString, commandText, parms);
             //return AutoMapper.Mapper.DynamicMap<List<T>>(dt.CreateDataReader());
-            using (MySqlDataReader reader = ExecuteDataReader(connectionString, commandText, parms))
+            using (MySqlDataReader reader = ExecuteDataReader(ConnectionString, commandText, parms))
             {
                 return AutoMapper.Mapper.DynamicMap<List<T>>(reader);
             }

@@ -1,59 +1,19 @@
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/obj/Debug/BaseLibrary.SqlConfig.csprojResolveAssemblyReference.cache
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.SqlConfig.dll
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.SqlConfig.pdb
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.Common.dll
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/FluentData.dll
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/Cee.Tools.dll
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.Mvc.dll
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.WebPages.dll
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/Microsoft.Web.Infrastructure.dll
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.WebPages.Deployment.dll
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.Common.pdb
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/Cee.Tools.pdb
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.Mvc.xml
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.WebPages.xml
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.WebPages.Deployment.xml
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/obj/Debug/BaseLibrary.SqlConfig.dll
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/obj/Debug/BaseLibrary.SqlConfig.pdb
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.SqlConfig.dll.config
-D:/田东东/星秒/Siminics/BaseLibrary.SqlConfig/bin/Debug/MySql.Data.dll
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.SqlConfig.dll.config
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.SqlConfig.dll
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.SqlConfig.pdb
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.Common.dll
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/FluentData.dll
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/MySql.Data.dll
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/Cee.Tools.dll
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.Mvc.dll
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.WebPages.dll
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/Microsoft.Web.Infrastructure.dll
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.WebPages.Deployment.dll
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.Common.pdb
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/Cee.Tools.pdb
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.Mvc.xml
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.WebPages.xml
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.WebPages.Deployment.xml
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/obj/Debug/BaseLibrary.SqlConfig.csprojResolveAssemblyReference.cache
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/obj/Debug/BaseLibrary.SqlConfig.csproj.CoreCompileInputs.cache
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/obj/Debug/BaseLibrary.SqlConfig.dll
-/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.SqlConfig/obj/Debug/BaseLibrary.SqlConfig.pdb
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.SqlConfig.dll.config
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.SqlConfig.dll
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.SqlConfig.pdb
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.Common.dll
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/FluentData.dll
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/MySql.Data.dll
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/Cee.Tools.dll
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.Mvc.dll
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.WebPages.dll
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/Microsoft.Web.Infrastructure.dll
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.WebPages.Deployment.dll
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/BaseLibrary.Common.pdb
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/Cee.Tools.pdb
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.Mvc.xml
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.WebPages.xml
-/MyProject/Siminics/BaseLibrary.SqlConfig/bin/Debug/System.Web.WebPages.Deployment.xml
-/MyProject/Siminics/BaseLibrary.SqlConfig/obj/Debug/BaseLibrary.SqlConfig.csprojResolveAssemblyReference.cache
-/MyProject/Siminics/BaseLibrary.SqlConfig/obj/Debug/BaseLibrary.SqlConfig.csproj.CoreCompileInputs.cache
-/MyProject/Siminics/BaseLibrary.SqlConfig/obj/Debug/BaseLibrary.SqlConfig.dll
-/MyProject/Siminics/BaseLibrary.SqlConfig/obj/Debug/BaseLibrary.SqlConfig.pdb
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\obj\Debug\BaseLibrary.SqlConfig.csprojResolveAssemblyReference.cache
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\BaseLibrary.SqlConfig.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\BaseLibrary.SqlConfig.pdb
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\BaseLibrary.Common.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\FluentData.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\Cee.Tools.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\System.Web.Mvc.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\System.Web.WebPages.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\BaseLibrary.Common.pdb
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\Cee.Tools.pdb
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\System.Web.Mvc.xml
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\System.Web.WebPages.xml
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\obj\Debug\BaseLibrary.SqlConfig.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\obj\Debug\BaseLibrary.SqlConfig.pdb
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\BaseLibrary.SqlConfig.dll.config
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Debug\MySql.Data.dll

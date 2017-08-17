@@ -15,3 +15,5 @@ D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\System.Web.WebPag
 D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\obj\Release\BaseLibrary.SqlConfig.csprojResolveAssemblyReference.cache
 D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\obj\Release\BaseLibrary.SqlConfig.dll
 D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\obj\Release\BaseLibrary.SqlConfig.pdb
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\BaseLibrary.SqlConfig.dll.config
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\MySql.Data.dll
