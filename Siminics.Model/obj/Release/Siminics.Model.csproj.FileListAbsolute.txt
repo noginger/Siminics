@@ -1,0 +1,16 @@
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\Siminics.Model.dll
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\Siminics.Model.pdb
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\BaseLibrary.Common.dll
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\Cee.Tools.dll
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\System.Web.Mvc.dll
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\System.Web.WebPages.dll
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\System.Web.WebPages.Deployment.dll
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\BaseLibrary.Common.pdb
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\Cee.Tools.pdb
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\System.Web.Mvc.xml
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\System.Web.WebPages.xml
+D:\田东东\星秒\Siminics\Siminics.Model\bin\Release\System.Web.WebPages.Deployment.xml
+D:\田东东\星秒\Siminics\Siminics.Model\obj\Release\Siminics.Model.csprojResolveAssemblyReference.cache
+D:\田东东\星秒\Siminics\Siminics.Model\obj\Release\Siminics.Model.dll
+D:\田东东\星秒\Siminics\Siminics.Model\obj\Release\Siminics.Model.pdb

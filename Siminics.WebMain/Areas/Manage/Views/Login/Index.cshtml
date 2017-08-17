@@ -1,0 +1,37 @@
+﻿@model Siminics.WebMain.Models.LoginModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>星秒后台管理系统</title>
+    <link href="/Content/css/base.css" rel="stylesheet" type="text/css">
+    <link href="/Content/css/login.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="login_top">
+        <div class="all_page"><img src="/Content/images/login_logo.png" width="242" height="50"></div>
+    </div>
+    <div class="all_page">
+        <div class="body_center">
+            <div class="c_text">后台管理系统</div><div class="clear"></div>
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+                <div class="list"><div class="login_name">用户名：</div>@Html.TextBoxFor(model => model.UserName)</div>
+                <div class="list"><div class="login_name">密&nbsp;&nbsp;  码：</div>@Html.PasswordFor(model => model.PassWord)</div>
+                <div class="btn"><input class="sure_btn" name="" type="submit" value="确 定"></div>
+            }
+        </div>
+    </div>
+    <div class="bottom">
+        @*COPYRIGHTS (C) 2014 WWW.KUDONGYI.COM ALL RIGHTS RESERVED. POWER BY*@ 
+    </div>
+</body>
+</html>
+

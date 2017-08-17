@@ -1,0 +1,16 @@
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.MySqlConfig/bin/Debug/BaseLibrary.MySqlConfig.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.MySqlConfig/bin/Debug/BaseLibrary.MySqlConfig.pdb
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.MySqlConfig/bin/Debug/AutoMapper.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.MySqlConfig/bin/Debug/MySql.Data.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.MySqlConfig/obj/Debug/BaseLibrary.MySqlConfig.csprojResolveAssemblyReference.cache
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.MySqlConfig/obj/Debug/BaseLibrary.MySqlConfig.csproj.CoreCompileInputs.cache
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.MySqlConfig/obj/Debug/BaseLibrary.MySqlConfig.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/BaseLibrary.MySqlConfig/obj/Debug/BaseLibrary.MySqlConfig.pdb
+/MyProject/Siminics/BaseLibrary.MySqlConfig/bin/Debug/BaseLibrary.MySqlConfig.dll
+/MyProject/Siminics/BaseLibrary.MySqlConfig/bin/Debug/BaseLibrary.MySqlConfig.pdb
+/MyProject/Siminics/BaseLibrary.MySqlConfig/bin/Debug/AutoMapper.dll
+/MyProject/Siminics/BaseLibrary.MySqlConfig/bin/Debug/MySql.Data.dll
+/MyProject/Siminics/BaseLibrary.MySqlConfig/obj/Debug/BaseLibrary.MySqlConfig.csprojResolveAssemblyReference.cache
+/MyProject/Siminics/BaseLibrary.MySqlConfig/obj/Debug/BaseLibrary.MySqlConfig.csproj.CoreCompileInputs.cache
+/MyProject/Siminics/BaseLibrary.MySqlConfig/obj/Debug/BaseLibrary.MySqlConfig.dll
+/MyProject/Siminics/BaseLibrary.MySqlConfig/obj/Debug/BaseLibrary.MySqlConfig.pdb

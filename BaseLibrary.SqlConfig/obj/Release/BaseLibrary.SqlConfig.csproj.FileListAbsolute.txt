@@ -1,0 +1,17 @@
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\BaseLibrary.SqlConfig.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\BaseLibrary.SqlConfig.pdb
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\BaseLibrary.Common.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\FluentData.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\Cee.Tools.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\System.Web.Mvc.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\System.Web.WebPages.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\Microsoft.Web.Infrastructure.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\System.Web.WebPages.Deployment.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\BaseLibrary.Common.pdb
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\Cee.Tools.pdb
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\System.Web.Mvc.xml
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\System.Web.WebPages.xml
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\bin\Release\System.Web.WebPages.Deployment.xml
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\obj\Release\BaseLibrary.SqlConfig.csprojResolveAssemblyReference.cache
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\obj\Release\BaseLibrary.SqlConfig.dll
+D:\田东东\星秒\Siminics\BaseLibrary.SqlConfig\obj\Release\BaseLibrary.SqlConfig.pdb

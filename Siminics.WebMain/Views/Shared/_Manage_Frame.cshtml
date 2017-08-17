@@ -1,0 +1,90 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>@ViewBag.Title</title>
+    <link href="/Content/css/base.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/css/other.css" rel="stylesheet" type="text/css" />
+    @RenderSection("RenderCss", false)
+    <script src="/Scripts/jquery.js"></script>
+    <script src="/Scripts/jquery1.4.2.js"></script>
+    <script src="/Scripts/yjy.base.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function () {
+                @if(TempData["JsPrint"] !=null)
+                {
+                    @Html.Raw(TempData["JsPrint"].ToString())
+                }
+                /* menu_nav start */
+                $("#menu_root").each(function () {
+                    $(this).find('li').hover(function () {
+                        var parent = $('.pull_down[type="n' + $(this).attr('n') + '"]');
+                        var _offset = $(this).offset();
+                        parent.css('left', _offset.left);
+                        parent.show();
+                    }, function () {
+                        $('.pull_down[type="n' + $(this).attr('n') + '"]').hide();
+                    });
+                });
+
+                $('.pull_down').each(function () {
+                    var father_obj = $('#menu_root>li[n=' + $(this).attr('type').replace('n', '') + ']');
+
+                    $(this).hover(function () {
+                        $(this).show();
+                        var root_offset = father_obj.offset();
+                        $(this).css("left", root_offset.left);
+                        father_obj.find('a').addClass('add_hover');
+                    }, function () {
+                        $(this).hide();
+                        $('#menu_root>li[n=' + $(this).attr('type').replace('n', '') + ']').find('a').removeClass('add_hover');
+                    });
+                });
+                /* menu_nav end */
+            });
+
+            function  showTip(msgtitle,msgcss) {
+                var cssname = "";
+                switch (msgcss) {
+                    case "1":
+                        cssname = "up_box02";
+                        break;
+                    case "0":
+                        cssname = "up_box03";
+                        break;
+                    case "2":
+                        cssname = "up_box04";
+                        break;
+                    default:
+                        cssname = "up_box02";
+                        break;
+                }
+                var str = "<div class=\"" + cssname + "\"><div class=\"lbox\"></div><div class=\"rbox\">" + msgtitle + "</div></div>";
+                $("body").append(str);
+                $('.' + cssname).show();
+                $('.' + cssname).stop(true).animate({ 'top': '40%', 'opacity': '1' }, 300);
+
+                //2秒后清除提示
+                setTimeout(function () {
+                    $('.' + cssname).fadeOut(500);
+                    //如果动画结束则删除节点
+                    if (!$('.' + cssname).is(":animated")) {
+                        $('.' + cssname).remove();
+                    }
+                }, 1500);
+            }
+    </script>
+
+    @RenderSection("RenderJs", false)
+
+</head>
+<body>
+    @Html.Partial("_Manage_Frame_Nav")
+    @RenderBody()
+    <!--页面底部-->
+    @Html.Partial("_Manage_Frame_Footer")
+</body>
+</html>

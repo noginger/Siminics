@@ -1,0 +1,329 @@
+D:/田东东/星秒/Siminics/Siminics.WebMain/obj/Debug/Siminics.WebMain.csprojResolveAssemblyReference.cache
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/roslyn/csc.exe
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.CodeAnalysis.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.CSharp.Core.targets
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.VisualBasic.Core.targets
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/roslyn/System.Collections.Immutable.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/roslyn/System.Reflection.Metadata.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/roslyn/vbc.exe
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/roslyn/VBCSCompiler.exe
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/roslyn/VBCSCompiler.exe.config
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Siminics.WebMain.dll.config
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Siminics.WebMain.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Siminics.WebMain.pdb
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Antlr3.Runtime.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/BaseLibrary.Common.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Cee.Tools.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/EntityFramework.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/EntityFramework.SqlServer.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AI.Agent.Intercept.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AI.DependencyCollector.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AI.PerfCounterCollector.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AI.ServerTelemetryChannel.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AI.Web.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AI.WindowsServer.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.ApplicationInsights.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.Core.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.EntityFramework.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.Owin.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Host.SystemWeb.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Cookies.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Facebook.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Google.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.MicrosoftAccount.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.OAuth.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Twitter.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Web.Infrastructure.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Newtonsoft.Json.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Owin.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Siminics.BL.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Siminics.Model.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.Helpers.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.Mvc.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.Optimization.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.Razor.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.WebPages.Deployment.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.WebPages.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.WebPages.Razor.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/WebGrease.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Siminics.DAL.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/BaseLibrary.SqlConfig.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/FluentData.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/BaseLibrary.Common.pdb
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Cee.Tools.pdb
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Siminics.BL.pdb
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Siminics.Model.pdb
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AI.DependencyCollector.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AI.ServerTelemetryChannel.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AI.Web.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AI.WindowsServer.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.ApplicationInsights.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.Helpers.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.Mvc.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.Optimization.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.Razor.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.WebPages.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.WebPages.Deployment.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/System.Web.WebPages.Razor.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Antlr3.Runtime.pdb
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Newtonsoft.Json.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/EntityFramework.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/EntityFramework.SqlServer.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.Core.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.Owin.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.EntityFramework.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Host.SystemWeb.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Facebook.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Cookies.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.OAuth.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Google.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Twitter.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.MicrosoftAccount.xml
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/Siminics.DAL.pdb
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/BaseLibrary.SqlConfig.pdb
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.Helpers.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.Mvc.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.Optimization.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.Razor.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.WebPages.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.WebPages.Deployment.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.WebPages.Razor.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/EntityFramework.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/EntityFramework.SqlServer.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.AspNet.Identity.Core.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.AspNet.Identity.Owin.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Host.SystemWeb.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.Facebook.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.Google.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.Twitter.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/obj/Debug/Siminics.WebMain.dll
+D:/田东东/星秒/Siminics/Siminics.WebMain/obj/Debug/Siminics.WebMain.pdb
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/roslyn/csc.exe
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.CodeAnalysis.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.CSharp.Core.targets
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/roslyn/System.Collections.Immutable.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/roslyn/System.Reflection.Metadata.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/roslyn/vbc.exe
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/roslyn/VBCSCompiler.exe
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/roslyn/VBCSCompiler.exe.config
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Siminics.WebMain.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Antlr3.Runtime.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/BaseLibrary.Common.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Cee.Tools.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/EntityFramework.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/EntityFramework.SqlServer.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AI.Agent.Intercept.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AI.DependencyCollector.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AI.PerfCounterCollector.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AI.ServerTelemetryChannel.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AI.Web.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AI.WindowsServer.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.ApplicationInsights.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.Core.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.EntityFramework.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.Owin.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Host.SystemWeb.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Cookies.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Facebook.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Google.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.MicrosoftAccount.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.OAuth.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Twitter.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Web.Infrastructure.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Newtonsoft.Json.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Owin.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Siminics.BL.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Siminics.Model.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.Helpers.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.Mvc.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.Optimization.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.Razor.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.WebPages.Deployment.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.WebPages.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.WebPages.Razor.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/WebGrease.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Siminics.DAL.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/BaseLibrary.Common.pdb
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Cee.Tools.pdb
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Siminics.BL.pdb
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Siminics.Model.pdb
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AI.DependencyCollector.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AI.ServerTelemetryChannel.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AI.Web.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AI.WindowsServer.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.ApplicationInsights.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.Helpers.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.Mvc.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.Optimization.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.Razor.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.WebPages.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.WebPages.Deployment.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/System.Web.WebPages.Razor.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Antlr3.Runtime.pdb
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Newtonsoft.Json.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/EntityFramework.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/EntityFramework.SqlServer.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.Core.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.Owin.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.EntityFramework.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Host.SystemWeb.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Facebook.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Cookies.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.OAuth.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Google.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Twitter.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.MicrosoftAccount.xml
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/Siminics.DAL.pdb
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.Helpers.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.Mvc.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.Optimization.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.Razor.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.WebPages.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.WebPages.Deployment.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.WebPages.Razor.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/EntityFramework.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/EntityFramework.SqlServer.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.AspNet.Identity.Core.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.AspNet.Identity.Owin.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.AspNet.Identity.EntityFramework.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Host.SystemWeb.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.Facebook.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.Google.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.Twitter.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/obj/Debug/Siminics.WebMain.csprojResolveAssemblyReference.cache
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/obj/Debug/Siminics.WebMain.csproj.CoreCompileInputs.cache
+/Users/zhaobin/Library/Containers/com.tencent.xinWeChat/Data/Library/Application Support/com.tencent.xinWeChat/2.0b4.0.9/f6ed558e6f79721a1a79cf77c53dbff8/Message/MessageTemp/fde31cbc6d497c23bc66467b62a2a416/File/Siminics/Siminics.WebMain/obj/Debug/Siminics.WebMain.dll
+/MyProject/Siminics/Siminics.WebMain/bin/roslyn/csc.exe
+/MyProject/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+/MyProject/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll
+/MyProject/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.CodeAnalysis.dll
+/MyProject/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll
+/MyProject/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.CSharp.Core.targets
+/MyProject/Siminics/Siminics.WebMain/bin/roslyn/Microsoft.VisualBasic.Core.targets
+/MyProject/Siminics/Siminics.WebMain/bin/roslyn/System.Collections.Immutable.dll
+/MyProject/Siminics/Siminics.WebMain/bin/roslyn/System.Reflection.Metadata.dll
+/MyProject/Siminics/Siminics.WebMain/bin/roslyn/vbc.exe
+/MyProject/Siminics/Siminics.WebMain/bin/roslyn/VBCSCompiler.exe
+/MyProject/Siminics/Siminics.WebMain/bin/roslyn/VBCSCompiler.exe.config
+/MyProject/Siminics/Siminics.WebMain/bin/Siminics.WebMain.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Antlr3.Runtime.dll
+/MyProject/Siminics/Siminics.WebMain/bin/BaseLibrary.Common.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Cee.Tools.dll
+/MyProject/Siminics/Siminics.WebMain/bin/EntityFramework.dll
+/MyProject/Siminics/Siminics.WebMain/bin/EntityFramework.SqlServer.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AI.Agent.Intercept.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AI.DependencyCollector.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AI.PerfCounterCollector.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AI.ServerTelemetryChannel.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AI.Web.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AI.WindowsServer.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.ApplicationInsights.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.Core.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.EntityFramework.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.Owin.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Host.SystemWeb.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Cookies.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Facebook.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Google.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.MicrosoftAccount.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.OAuth.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Twitter.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Web.Infrastructure.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Newtonsoft.Json.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Owin.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Siminics.BL.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Siminics.Model.dll
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.Helpers.dll
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.Mvc.dll
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.Optimization.dll
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.Razor.dll
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.WebPages.Deployment.dll
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.WebPages.dll
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.WebPages.Razor.dll
+/MyProject/Siminics/Siminics.WebMain/bin/WebGrease.dll
+/MyProject/Siminics/Siminics.WebMain/bin/Siminics.DAL.dll
+/MyProject/Siminics/Siminics.WebMain/bin/BaseLibrary.Common.pdb
+/MyProject/Siminics/Siminics.WebMain/bin/Cee.Tools.pdb
+/MyProject/Siminics/Siminics.WebMain/bin/Siminics.BL.pdb
+/MyProject/Siminics/Siminics.WebMain/bin/Siminics.Model.pdb
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AI.DependencyCollector.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AI.ServerTelemetryChannel.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AI.Web.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AI.WindowsServer.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.ApplicationInsights.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.Helpers.xml
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.Mvc.xml
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.Optimization.xml
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.Razor.xml
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.WebPages.xml
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.WebPages.Deployment.xml
+/MyProject/Siminics/Siminics.WebMain/bin/System.Web.WebPages.Razor.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Antlr3.Runtime.pdb
+/MyProject/Siminics/Siminics.WebMain/bin/Newtonsoft.Json.xml
+/MyProject/Siminics/Siminics.WebMain/bin/EntityFramework.xml
+/MyProject/Siminics/Siminics.WebMain/bin/EntityFramework.SqlServer.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.Core.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.Owin.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.AspNet.Identity.EntityFramework.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Host.SystemWeb.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Facebook.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Cookies.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.OAuth.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Google.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.Twitter.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Microsoft.Owin.Security.MicrosoftAccount.xml
+/MyProject/Siminics/Siminics.WebMain/bin/Siminics.DAL.pdb
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.Helpers.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.Mvc.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.Optimization.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.Razor.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.WebPages.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.WebPages.Deployment.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/System.Web.WebPages.Razor.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/EntityFramework.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/EntityFramework.SqlServer.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.AspNet.Identity.Core.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.AspNet.Identity.Owin.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.AspNet.Identity.EntityFramework.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Host.SystemWeb.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.Facebook.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.Google.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.Twitter.resources.dll
+/MyProject/Siminics/Siminics.WebMain/bin/zh-Hans/Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+/MyProject/Siminics/Siminics.WebMain/obj/Debug/Siminics.WebMain.csprojResolveAssemblyReference.cache
+/MyProject/Siminics/Siminics.WebMain/obj/Debug/Siminics.WebMain.csproj.CoreCompileInputs.cache
+/MyProject/Siminics/Siminics.WebMain/obj/Debug/Siminics.WebMain.dll
