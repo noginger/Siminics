@@ -1,6 +1,0 @@
-D:\田东东\星秒\Siminics\BaseLibrary.MySqlConfig\bin\Debug\BaseLibrary.MySqlConfig.dll
-D:\田东东\星秒\Siminics\BaseLibrary.MySqlConfig\bin\Debug\BaseLibrary.MySqlConfig.pdb
-D:\田东东\星秒\Siminics\BaseLibrary.MySqlConfig\bin\Debug\AutoMapper.dll
-D:\田东东\星秒\Siminics\BaseLibrary.MySqlConfig\bin\Debug\MySql.Data.dll
-D:\田东东\星秒\Siminics\BaseLibrary.MySqlConfig\obj\Debug\BaseLibrary.MySqlConfig.dll
-D:\田东东\星秒\Siminics\BaseLibrary.MySqlConfig\obj\Debug\BaseLibrary.MySqlConfig.pdb
