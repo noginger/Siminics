@@ -1,0 +1,98 @@
+﻿@{
+    ViewBag.Title = "商品管理";
+    Layout = "~/Views/Shared/_Main_Frame.cshtml";
+}
+@section RenderJs
+{
+    <script src="/Scripts/index.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#search_list').click(function () {
+                getUrl();
+            });
+        });
+        function getUrl() {
+            var _filter = $('#s_filter').val();
+            var _text = $("#s_text").val();
+            if (_text == "产品名称")
+                _text = "";
+            urlRedirect({ s_filter: _filter, s_text: _text });
+        };
+    </script>
+}
+
+<div class="body_center">
+    <div class="select_condition">
+        产品类型：
+        <select id="s_filter" >
+            <option value="0">-请选择-</option>
+            <option value="@((int)EnumConst.ProductType.Template)" @(ViewBag.Status==(int)EnumConst.ProductType.Template?"selected='selected'":"")>模板</option>
+            <option value="@((int)EnumConst.ProductType.Local)" @(ViewBag.Status==(int)EnumConst.ProductType.Local?"selected='selected'":"")>本地</option>
+            <option value="@((int)EnumConst.ProductType.WeChat)" @(ViewBag.Status==(int)EnumConst.ProductType.WeChat?"selected='selected'":"")>微信</option>
+        </select>
+        <input type="text" id="s_text" value="@ViewBag.Text" tip="产品名称" class="long" style="width: 200px;"/>
+        <input class="btn" id="search_list" type="button" />
+    </div>
+    <div class="handle">
+        @Html.RouteLink("添加",new {controller="Product",action="Add"},new{@class="create"})
+    </div>
+    <div class="clear"></div>
+    <!--列表-->
+    <div class="tablelist">
+        <table width="100%" border="0">
+            <tr class="title">
+                <td width="60">编号</td>
+                <td width="">[图片]产品名称</td>
+                <td width="140">产品类型</td>
+                <td width="120">浏览数</td>
+                <td width="120">下载数</td>
+                <td width="120">产品状态</td>
+                <td width="120">创建日期</td>
+                <td width="110">操作</td>
+            </tr>
+            @foreach (Pro_ProductInfo info in ViewBag.Info)
+            {
+                <tr>
+                    <td>@info.ProductId</td>
+                    <td class="tleft">
+                        <div class="pbox">
+                            @if(!string.IsNullOrEmpty(info.ShowImage))
+                            {
+                                <img src="@Html.Raw("http://img.kudongyi.com")@info.ShowImage" width="100" height="100"/>
+                            }
+                            @Html.RouteLink(info.ProductName, new { controller = "Product", action = "Edit", id = info.ProductId })
+                        </div>
+                    </td>
+                    <td>@(((EnumConst.ProductType)info.ProductType).ToDesc())</td>
+                    <td>@info.ViewCount</td>
+                    <td>@info.DownCount</td>
+                    <td>@(info.IsSale==1?"上架":"下架")</td>
+                    <td>@(TimeHelper.LongToTime(info.CreateTime).ToString("yyyy-MM-dd HH:mm"))</td>
+                    <td class="tright">
+                        <div class="t_position">
+                            <div class="r_pull_down">
+                                <ul>
+                                    <li>@Html.RouteLink("编辑", new { controller = "Product", action = "Edit", id = info.ProductId })
+                                        <a href="javascript:void(0);" ref="ShowRoleDown">
+                                            <img src="/Content/images/arrow_down.png" width="14" height="14" />
+                                        </a><div class="clear"></div></li>
+                                    <li>
+                                        <a href="javascript:void(0)" name="linkDelete" value="@info.ProductId">删除</a>
+                                        <div class="clear"></div>
+                                    </li>
+                                    <li>
+                                        <a href="/Product/ChangeSale/@info.ProductId" value="@info.ProductId">@(info.IsSale==1?"下架":"上架")</a>
+                                        <div class="clear"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </table>
+            <div class="pagebox">
+                    @MvcHtmlString.Create(ManageMvcPaging.Create(25, ViewBag.Count, 5, false))
+            </div>
+    </div>
+</div>

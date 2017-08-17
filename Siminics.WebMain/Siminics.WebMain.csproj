@@ -27,8 +27,8 @@
     </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType></DebugType>
     <Optimize>false</Optimize>
     <OutputPath>bin\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
@@ -119,6 +119,7 @@
     <Compile Include="Global\SysUserModel.cs" />
     <Compile Include="Models\LoginModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Areas\Manage\Controllers\ProductController.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Content\css\base.css" />
@@ -327,12 +328,14 @@
     <Content Include="Views\Shared\_Manage_Frame.cshtml" />
     <Content Include="Views\Shared\_Manage_Frame_Footer.cshtml" />
     <Content Include="Views\Shared\_Manage_Frame_Nav.cshtml" />
+    <Content Include="Areas\Manage\Views\Product\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Manage\Models\" />
     <Folder Include="Areas\Manage\Views\Shared\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Areas\Manage\Views\Product\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -390,6 +393,11 @@
         </WebProjectProperties>
       </FlavorProperties>
     </VisualStudio>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
   </ProjectExtensions>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

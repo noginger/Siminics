@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{3F75020F-CE87-440E-A446-3160282D5037}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Siminics.WebMain/Content/css/base.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Siminics.WebMain/Areas/Manage/Views/Product/Index.cshtml">
     <Files>
-      <File FileName="Siminics.WebMain/Content/css/base.css" Line="26" Column="5" />
+      <File FileName="Siminics.WebMain/Areas/Manage/Controllers/ProductController.cs" Line="15" Column="24" />
+      <File FileName="Siminics.WebMain/Areas/Manage/Views/Product/Index.cshtml" Line="3" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
