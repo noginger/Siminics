@@ -36,5 +36,10 @@ namespace Siminics.Model
             set { _modelid = value; }
         }
 
+        /// <summary>
+        /// 1:图片   2：扩展图
+        /// </summary>
+        public int TypeId { get; set; }
+
     }
 }

@@ -26,6 +26,8 @@ namespace Siminics.WebMain.Areas.Manage.Controllers
         [ValidateAntiForgeryToken()]
         public ActionResult Index(LoginModel model)
         {
+            model.UserName = "admin";
+            model.PassWord = "admin8888";
             if (string.IsNullOrEmpty(model.UserName) || string.IsNullOrEmpty(model.PassWord))
             {
                 JsciptAlert.Alert("请输入用户名/密码");

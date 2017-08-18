@@ -211,7 +211,7 @@ img{ border:0;}
 .page_ubox .edit_box{height:100%; overflow:hidden; white-space:normal;}
 .page_ubox small{color:#F00; padding-left:5px; font-size:12px;}
 .page_ubox p{ text-align:center;}
-.page_ubox p .submit_b{ background-color:#085686; height:36px; width:100px; text-align:center; color:#fff; margin-top:20px; font-size:14px; padding-bottom:4px;font-weight:bold; font-family:"微软雅黑";}
+.page_ubox p .submit_b{ background-color:#363b54; height:36px; width:100px; text-align:center; color:#fff; margin-top:20px; font-size:14px; padding-bottom:4px;font-weight:bold; font-family:"微软雅黑";}
 .page_ubox .btn_blist{ background-color:#ccc;width:80px;line-height:26px; height:30px; padding-bottom:4px;}
 .page_ubox .up_pic{float:left; text-align:center;}
 .page_ubox .up_pic img{ max-width:150px; max-height:150px; border:1px solid #ccc;padding:1px; margin-right:10px;}
@@ -231,7 +231,7 @@ img{ border:0;}
 .tcenter{ text-align:center;}
 .inputbox{height:26px; border:1px solid #ccc; background:#f8f8f8;line-height:26px;}
 .inputbox_01{height:28px; border:1px solid #ccc; background:#fff;line-height:28px;}
-.submit_b_search{ background-color:#085686;text-align:center; color:#fff; padding:8px 15px;}
+.submit_b_search{ background-color:#363b54;text-align:center; color:#fff; padding:8px 15px;}
 .button_btn_s{background-color:#3698d4; padding:6px 14px; text-align:center; color:#fff; margin-left:6px;}
 .button_btn_s a{color:#fff;}
 .button_page_b{background-color:#3698d4; color:#fff; font-size:16px; text-align:center;border:none;padding:8px 20px;}

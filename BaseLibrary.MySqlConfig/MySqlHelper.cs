@@ -943,6 +943,16 @@ namespace BaseLibrary.MySqlConfig
             }
         }
 
+
+        /// <summary>
+        /// 过滤特殊字符
+        /// </summary>
+        /// <returns></returns>
+        public static string FilterSpecialChar(string text)
+        {
+            return string.IsNullOrEmpty((text)) ? "" : text.Replace("'", "\'");
+        }
+
         #endregion
     }
 

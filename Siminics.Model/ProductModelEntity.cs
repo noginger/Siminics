@@ -62,5 +62,11 @@ namespace Siminics.Model
             get { return _downurl; }
             set { _downurl = value; }
         }
+
+        public int sort { get; set; }
+
+        public IList<ModelSourceModel> Images { get; set; }
+
+        public string productname { get; set; }
     }
 }
