@@ -19,6 +19,7 @@ namespace Siminics.WebMain.Areas.Manage.Controllers
     {
         public ActionResult Index()
         {
+            Response.Cache.SetOmitVaryStar(true);
             return View();
         }
 
@@ -26,8 +27,6 @@ namespace Siminics.WebMain.Areas.Manage.Controllers
         [ValidateAntiForgeryToken()]
         public ActionResult Index(LoginModel model)
         {
-            model.UserName = "admin";
-            model.PassWord = "admin8888";
             if (string.IsNullOrEmpty(model.UserName) || string.IsNullOrEmpty(model.PassWord))
             {
                 JsciptAlert.Alert("请输入用户名/密码");
@@ -45,15 +44,15 @@ namespace Siminics.WebMain.Areas.Manage.Controllers
                 {
                     var sysUserModel = LoginProccess.InsertSession((SysUserInfo)result.AppendData);
                     
-                    SysUserInfo sysUserInfo = (SysUserInfo)result.AppendData;
-                    TimeSpan timeSpan = new TimeSpan(0, 1, 0);
-                    DateTime expiration = model.IsRememberLogin ? DateTime.Now.AddDays(1) : DateTime.Now.Add(timeSpan);
-                    HttpCookie cookie = new HttpCookie(LoginProccess._sysUserCookieKey);
-                    if (model.IsRememberLogin)
-                    {
-                        cookie.Expires = DateTime.Now.AddDays(1);
-                    }
-                    Response.Cookies.Set(cookie);
+                    //SysUserInfo sysUserInfo = (SysUserInfo)result.AppendData;
+                    //TimeSpan timeSpan = new TimeSpan(0, 1, 0);
+                    //DateTime expiration = model.IsRememberLogin ? DateTime.Now.AddDays(1) : DateTime.Now.Add(timeSpan);
+                    //HttpCookie cookie = new HttpCookie(LoginProccess._sysUserCookieKey);
+                    //if (model.IsRememberLogin)
+                    //{
+                    //    cookie.Expires = DateTime.Now.AddDays(1);
+                    //}
+                    //Response.Cookies.Set(cookie);
 
                     return RedirectToAction("Index", "Main");
                 }
@@ -77,7 +76,7 @@ namespace Siminics.WebMain.Areas.Manage.Controllers
             HttpSessionState httpSession = System.Web.HttpContext.Current.Session;
             LoginProccess.ClearSession();
 
-            return Redirect("/login");
+            return Redirect("/Manage/Login");
         }
     }
 }

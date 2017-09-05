@@ -62,5 +62,9 @@ namespace Siminics.Model
             get { return _imageurl; }
             set { _imageurl = value; }
         }
+
+        public int Sort { get; set; }
+
+        public string ImageHtml { get; set; }
     }
 }

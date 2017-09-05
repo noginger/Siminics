@@ -19,9 +19,33 @@ namespace Siminics.DAL
             base.ColumnKey = "productId";
         }
 
+        public int AddType(string typeName,int sort)
+        {
+            string sql = "insert product(productname,sort) values(@productname,@sort)";
+            MySqlParameter[] parameters = new MySqlParameter[]
+            {
+                new MySqlParameter("@productname",typeName),
+                new MySqlParameter("@sort",sort)
+            };
+
+            return MySqlHelper.ExecuteNonQuery(MySqlHelper.ConnectionString,sql,parameters);
+        }
+
+        public int EditType(ProductModel entity)
+        {
+            string sql = "update product set productname=@productname,sort=@sort where productid=@productid";
+            MySqlParameter[] parameters=new MySqlParameter[]
+            {
+                new MySqlParameter("@productname",entity.productname),
+                new MySqlParameter("@sort",entity.sort),
+                new MySqlParameter("@productid",entity.ProductId),   
+            };
+            return MySqlHelper.ExecuteNonQuery(MySqlHelper.ConnectionString,sql,parameters);
+        }
+
         public int Add(ProductModelEntity entity)
         {
-            string sql = @"INSERT INTO `productmodel` (`productid`,`modelname`,`apply`,`desc`,`downurl`,`sort`) VALUES(@productid,@modelname,@apply,@desc,@downurl,@sort);";
+            string sql = @"INSERT INTO `productmodel` (`productid`,`modelname`,`apply`,`desc`,`downurl`,`sort`) VALUES(@productid,@modelname,@apply,@desc,@downurl,@sort);select @@identity";
             MySqlParameter[] parameters=new MySqlParameter[]
             {
                 new MySqlParameter("@productid",entity.productid),
@@ -32,7 +56,23 @@ namespace Siminics.DAL
                 new MySqlParameter("@sort",entity.sort), 
             };
 
-            return MySqlHelper.ExecuteNonQuery(MySqlHelper.ConnectionString,sql, parameters);
+            int modelId = MySqlHelper.ExecuteScalar<int>(MySqlHelper.ConnectionString,sql, parameters);
+
+            sql = "insert modelsource(imageurl,modelid,typeid) values(@imageurl,@modelid,@typeid)";
+
+            foreach (var image in entity.Images)
+            {
+                parameters = new MySqlParameter[]
+                {
+                    new MySqlParameter("@imageurl", image.imageurl),
+                    new MySqlParameter("@modelid", modelId),
+                    new MySqlParameter("@typeid", image.TypeId)
+                };
+
+                MySqlHelper.ExecuteNonQuery(MySqlHelper.ConnectionString,sql,parameters);
+            }
+
+            return modelId;
         }
     }
 }

@@ -1,0 +1,87 @@
+﻿@model Siminics.WebMain.Models.ContentViewModel
+@{
+    ViewBag.Title = "添加咨询内容";
+    Layout = "~/Views/Shared/_Manage_Frame.cshtml";
+}
+
+@section RenderCss
+{
+    <link href="/Plugs/UEditor/themes/default/ueditor.css" rel="stylesheet" type="text/css" />
+    <link href="/Plugs/uploadify/uploadify.css" rel="stylesheet" />
+}
+
+@section RenderJs
+{
+    <script src="/Scripts/jquery.form.js"></script>
+    <script src="/Plugs/uploadify/jquery.uploadify.min.js"></script>
+    <script src="/Scripts/upload.js"></script>
+    <script src="/Plugs/UEditor/editor_config.js" charset="utf-8" type="text/javascript"></script>
+    <script src="/Plugs/UEditor/editor_all_min.js" charset="utf-8" type="text/javascript"></script>
+}
+
+<div class="body_center">
+    <!--   内容-->
+    <div class="page_ubox">
+        @using (Html.BeginForm("AddNews", "Content", FormMethod.Post, new { @id = "form1" }))
+        {
+            @Html.ValidationSummary(true)
+            <div class="tab_titles">内容类型：</div>
+            <div class="tab_infoss">
+                @Html.DropDownListFor(model => model.TypeId, (List<SelectListItem>)ViewBag.ContentsTypes, new { @class = "inputbox" })
+                <small>*@Html.ValidationMessageFor(m => m.TypeId)</small>
+            </div>
+            <div class="clear"></div>
+            <div class="tab_titles">产品类型：</div>
+            <div class="tab_infoss">
+                @Html.DropDownListFor(model => model.ProductId, (List<SelectListItem>)ViewBag.ProductTypes, new { @class = "inputbox" })
+                <small>当内容类型为技术支持时，选择此项</small>
+            </div>
+            <div class="clear"></div>
+            <div class="tab_titles">封面图片：</div>
+            <div class="tab_infoss">
+                <div id="ImageControl" style="float: left">
+                    <input type="file" id="singleImg_upload" />
+                    @Html.Raw(ViewBag.Images)
+                    @Html.HiddenFor(model => model.ImageHtml, new { @id = "hidImageHtml" })
+                    @Html.HiddenFor(model => model.ImageUrl, new { @id = "hidPath" })
+                </div>
+                <small>*</small>
+            </div>
+            <div class="clear"></div>
+            <div class="tab_titles">排序序号：</div>
+            <div class="tab_infoss">
+                @Html.TextBoxFor(model => model.Sort, new { @class = "inputbox", size = 50, maxlength = 2 })<small>*@Html.ValidationMessageFor(m => m.Sort)</small>
+            </div>
+            <div class="clear"></div>
+            <div class="tab_titles">标题：</div>
+            <div class="tab_infoss">
+                @Html.TextBoxFor(model => model.Title, new { @class = "inputbox", size = 50, maxlength = 40 })<small>*@Html.ValidationMessageFor(m => m.Title)</small>
+            </div>
+            <div class="clear"></div>
+            <div class="tab_titles">简介：</div>
+            <div class="tab_infoss">
+                @Html.TextBoxFor(model => model.ShortDesc, new { @class = "inputbox", size = 100, maxlength = 40 })<small>*@Html.ValidationMessageFor(m => m.ShortDesc)</small>
+            </div>
+            <div class="clear"></div>
+            <div class="tab_titles">内容：</div>
+            <div class="tab_infoss">
+                <div class="edit_box">
+                    <textarea name="Content" id="Content" style="width: 900px;">@ViewBag.Content</textarea>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <p>
+                <input class="submit_b" type="submit" value="提交保存" />
+            </p>
+        }
+    </div>
+</div>
+<script type="text/javascript">
+
+    var ue1 = new UE.ui.Editor({ wordCount: false, elementPathEnabled: false, toolbars: mini });
+    ue1.render('Content');
+
+</script>
+
+
+

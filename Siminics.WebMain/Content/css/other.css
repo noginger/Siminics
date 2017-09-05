@@ -10,13 +10,13 @@
 .nav ul li a:hover{background-color:#f2b632; border:1px solid #f2b632; color:#FFF; text-align:center;}
 .nav ul li a.add_hover{background-color:#f2b632; border:1px solid #f2b632; color:#FFF; text-align:center;}
 /*导航下拉*/
-.topline{ background:url(../images/topline.jpg) no-repeat top;  height:1px;width:222px;margin-top:4px;}
-.on_hover{background-color:#0a6fad; border:1px solid #065180; color:#FFF; width:220px; border-top:1px solid #0a6fad;overflow:hidden;  text-align:center; }
+.topline{ width:222px;margin-top:4px;}
+.on_hover{background-color:#f2b632; border:1px solid #d99f1f; color:#FFF; width:220px; border-top:1px solid #f2b632;overflow:hidden;  text-align:center; }
 .on_hover ul{ width:100%;}
 .on_hover ul li{width:100px; float:left; margin:0px 4px 0px 0px; border-bottom:1px solid #252839;font-size:12px; line-height:30px; height:30px; text-align:center;}
 .on_hover ul li a{border:none; background:none; text-align:center;color:#fff;width:100px;}
-.mouse_on{ background-color:#065180;float:left;/* padding:5px 7px;*/}
-.on_hover ul li a:hover{border:none; color:#FFF; padding:0; text-align:center; margin:0px; width:100px;background-color:#065180;float:left;}
+.mouse_on{ background-color:#d99f1f;float:left;/* padding:5px 7px;*/}
+.on_hover ul li a:hover{border:none; color:#FFF; padding:0; text-align:center; margin:0px; width:100px;background-color:#d99f1f;float:left;}
 .pull_down{z-index:10000; position:absolute; top:39px; left:421px;}
 /*导航下拉结束*/
 .body_center{width:100%;min-width:1000px; padding-top:10px;}
@@ -31,8 +31,8 @@
 .body_left .text_list a{ margin-left:10px;}
 .body_right{width:56%; float:right;margin-right:5%;_margin-right:2.5%; }
 .body_right .title{ border-top:1px solid #eaebeb; position:relative; height:12px; margin-top:20px;}
-.body_right .title span{color:#0a6fad; font-size:18px; position:absolute; left:20px; top:-14px; background-color:#FFF;}
-.searvh_btn{color:#0a6fad; position:relative; margin-bottom:20px;}
+.body_right .title span{color:#f2b632; font-size:18px; position:absolute; left:20px; top:-14px; background-color:#FFF;}
+.searvh_btn{color:#f2b632; position:relative; margin-bottom:20px;}
 .searvh_btn .text_r{ border:1px solid #eaebeb; height:24px; line-height:24px; width:200px;}
 .btn_right{ background:url(../images/arrow_r_search.jpg) no-repeat; width:23px; height:23px; position:absolute; left:275px; top:5px;}
 /*颜色模块*/
@@ -47,7 +47,7 @@
 .tab05{background-color:#c03a24; text-align:center;position:relative;}
 .tab06{background-color:#598e3d; text-align:center;position:relative;}
 .tab07{background-color:#f57504; text-align:center;position:relative;}
-.tab08{background-color:#0a6fad; text-align:center;position:relative;}
+.tab08{background-color:#f2b632; text-align:center;position:relative;}
 .tab09{background-color:#085686; text-align:center;position:relative;}
 .transparent{filter:alpha(opacity=60);-moz-opacity:0.6;-khtml-opacity: 0.6;opacity: 0.6;}
 /**底部***/
@@ -64,23 +64,13 @@
 .f_tab03{background:url(../images/shezhi_ico.png) no-repeat;padding-left:25px;float:left;padding-right:6px;margin-top:3px;}
 .f_tab04{background:url(../images/zhuxiao.png) no-repeat;padding-left:25px;padding-right:6px; margin-top:3px;float:left;}
 .f_tab05{background:url(../images/xiugaikey.png) no-repeat; padding-left:26px;float:left;padding-right:6px;margin-top:3px;}
-/***右边弹出框**/
-.r_upbox{width:auto;position:fixed; right:0px; top:30px; z-index:1000;}
-.r_left{background-color:#085686;  float:left; width:48px;}
-.r_left .pic_off{background:url(../images/left.png) no-repeat; width:38px; height:38px; margin:10px auto auto 10px; cursor:pointer;}
-.r_left .pic_on{background:url(../images/right.png) no-repeat; width:38px; height:38px; margin:10px auto auto 10px;cursor:pointer;}
-.r_right{ width:auto;background-color:#0a6fad;border:1px solid #03456d; height:100%; overflow:hidden; float:left;}
-.r_right ul{ float:left;width:105px; font-family:"微软雅黑";}
-.r_right ul li{text-align:center;font-size:14px; float:left;width:80px; height:80px; line-height:24px; margin:10px;}
-.r_right ul li a{ color:#fff;}
-.r_right .on{background-color:#085686; width:80px; height:74px; padding-top:6px;}
 /***main_list***/
 .crumbs{ font-size:14px; padding:0px 2% 10px 2%;}
 .crumbs_left{ float:left;font-family:"微软雅黑";}
 .crumbs span{ margin:auto 6px;}
 .crumbs_right{ float:right; width:220px;}
 .crumbs_right a{ color:#333; margin-right:10px; float:left;font-size:12px; width:100px; width:auto;}
-.crumbs_right a:hover{color:#0a6fad;}
+.crumbs_right a:hover{color:#f2b632;}
 .crumbs_right img {float:left;}
 .crumbs_right a.q_menu{float:left; background:url(../images/add_kuaijie.jpg) no-repeat; padding-left:20px; height:20px;}
 .crumbs_right a.back_page{float:left; background:url(../images/left_back.jpg) no-repeat; padding-left:20px; height:20px;}
@@ -113,7 +103,7 @@
 .nomargin{ margin:10px 0px;}
 .page_ubox .nomargin{ margin:10px 0px; width:100%;}
 .tablelist1{margin:10px 2%;line-height:18px;width:96%;}
-.tablelist1 .title{ background-color:#efefef; border-bottom:1px solid #d4d4d4; height:20px; font-weight:bold; color:#0a6fad; margin-top:10px; }
+.tablelist1 .title{ background-color:#efefef; border-bottom:1px solid #d4d4d4; height:20px; font-weight:bold; color:#f2b632; margin-top:10px; }
 .tablelist1 table tr{text-align:center;}
 .tablelist1 table tr td{padding-top:6px;padding-bottom:6px;}
 .tablelist1 .center_text{font-size:16px; padding:8px 0px; font-weight:bold;}
@@ -144,7 +134,7 @@
 .tab_on_hover{border:1px solid #eaebeb;border-bottom:2px solid #fff;}
 .tab_on_out{border:1px solid #eaebeb; }
 .tab_on_out a{color:#333; }
-.tab_on_hover a{color:#0a6fad;}
+.tab_on_hover a{color:#f2b632;}
 .tab_blist{margin-left:5%; margin-right:5%;width:90%; line-height:28px;margin-bottom:50px;}
 .tab_blist span{float:left; margin-right:4px;}
 .tab_blist p{ margin-left:34px; margin:0px auto 10px 34px; height:100%; overflow:hidden;}
@@ -198,7 +188,7 @@
 .gk_text{ border:1px solid #ccc; width:200px; float:left; height:28px; margin-right:4px; line-height:28px;}
 .btn{ background:url(../images/search_btn.png) no-repeat; width:26px; height:26px; border:none;}
 .gk_float{ float:left;}
-.guakao_upbox .title{background-color:#efefef; border-bottom:1px solid #d4d4d4;height:30px; font-weight:bold; color:#0a6fad; margin-top:10px;}
+.guakao_upbox .title{background-color:#efefef; border-bottom:1px solid #d4d4d4;height:30px; font-weight:bold; color:#f2b632; margin-top:10px;}
 .guakao_upbox .tablelist{ margin:0px 1% 0px 1%; padding-bottom:10px;}
 .gk_h{height:320px; overflow-y:auto;overflow-x:hidden;}
 .tablelist a{ margin-left:5px;}

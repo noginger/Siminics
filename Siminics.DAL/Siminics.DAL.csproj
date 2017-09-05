@@ -44,14 +44,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompanyContentDAL.cs" />
+    <Compile Include="LeaveMessageDAL.cs" />
+    <Compile Include="NewsContentDAL.cs" />
     <Compile Include="ProductDAL.cs" />
     <Compile Include="ProductModelDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SlideDAL.cs" />
+    <Compile Include="SurportTypeDAL.cs" />
     <Compile Include="SysUser.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BaseLibrary.Common\BaseLibrary.Common.csproj">

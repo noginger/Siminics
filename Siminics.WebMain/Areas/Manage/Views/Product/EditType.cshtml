@@ -1,0 +1,38 @@
+﻿@model Siminics.WebMain.Models.ProductViewModel
+@{
+    ViewBag.Title = "添加产品类型";
+    Layout = "~/Views/Shared/_Manage_Frame.cshtml";
+}
+
+
+@section RenderJs
+{
+    <script src="/Scripts/jquery.form.js"></script>
+}
+
+<div class="body_center">
+    <!--   内容-->
+    <div class="page_ubox">
+        @using (Html.BeginForm("EditType", "Product", FormMethod.Post, new { @id = "form1" }))
+        {
+            @Html.ValidationSummary(true)
+            @Html.HiddenFor(model => model.ProductId)
+            <div class="tab_titles">产品类型名称：</div>
+            <div class="tab_infoss">
+                @Html.TextBoxFor(model => model.ProductName, new { @class = "inputbox", size = 50, maxlength = 20 })<small>*@Html.ValidationMessageFor(m => m.ProductName)</small>
+            </div>
+            <div class="clear"></div>
+            <div class="tab_titles">排序序号：</div>
+            <div class="tab_infoss">
+                @Html.TextBoxFor(model => model.Sort, new { @class = "inputbox", size = 50, maxlength = 2 })<small>*@Html.ValidationMessageFor(m => m.Sort)</small>
+            </div>
+            <div class="clear"></div>
+            <p>
+                <input class="submit_b" type="submit" value="提交保存" />
+            </p>
+        }
+    </div>
+</div>
+
+
+

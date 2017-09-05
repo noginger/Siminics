@@ -1,0 +1,132 @@
+﻿@using Siminics.Model
+
+@{
+    ViewBag.Title = "常见问题-技术支持";
+    Layout = "~/Views/Shared/_Main_Frame.cshtml";
+    SlideModel model = ViewBag.Slide;
+    List<NewsContentModel> lists = ViewBag.List;
+}
+
+@section RenderCss
+{
+    <style>
+        p { margin-bottom: 0px;}
+         .arrow_down {
+             background-color: #ffa51a;
+             color: white;
+         }
+        .font_up { color: #5a5a5a }
+        .font_down { color: white; }
+        .arrow_up {
+            border: 1px rgba(0, 0, 0, 0.5) dashed;
+            background-color: white;
+            color: #5a5a5a;
+        }
+        .img_arrow_up {
+            width: 30px;
+            transform: rotate(-90deg);
+            -ms-transform: rotate(-90deg); /* IE 9 */
+            -moz-transform: rotate(-90deg); /* Firefox */
+            -webkit-transform: rotate(-90deg); /* Safari 和 Chrome */
+            -o-transform: rotate(-90deg); /* Opera */
+        }
+        .img_arrow_down {
+            width: 30px;
+            transform: rotate(90deg);
+            -ms-transform: rotate(90deg); /* IE 9 */
+            -moz-transform: rotate(90deg); /* Firefox */
+            -webkit-transform: rotate(90deg); /* Safari 和 Chrome */
+            -o-transform: rotate(90deg); /* Opera */
+        }
+        .hidden { display: none;}
+    </style>
+}
+
+<script type="text/javascript">
+    $(function() {
+        $(".showContent").click(function() {
+            var _this = $(this);
+            var root = _this.parent().parent().parent().parent();
+            var divContent = root.find("div.divContent");
+            var arrow = root.find("div.arrow");
+            var img = root.find("img.img_arrow");
+            var font = root.find("h3.h3font");
+
+            if (divContent.attr("show")=="0") {
+                font.addClass("font_down");
+                font.removeClass("font_up");
+                img.attr("src", "/Content/Images/arrow_white.png");
+                img.addClass("img_arrow_down");
+                img.removeClass("img_arrow_up");
+                arrow.addClass("arrow_down");
+                arrow.removeClass("arrow_up");
+                divContent.removeClass("hidden");
+                divContent.attr("show", "1");
+            } else {
+                font.removeClass("font_down");
+                font.addClass("font_up");
+                img.attr("src", "/Content/Images/arrow.png");
+                img.removeClass("img_arrow_down");
+                img.addClass("img_arrow_up");
+                arrow.removeClass("arrow_down");
+                arrow.addClass("arrow_up");
+                divContent.addClass("hidden");
+                divContent.attr("show", "0");
+            }
+        });
+    });
+</script>
+
+<div class="container-fluid">
+    @if (model != null)
+    {
+        <img src="@(model.imageurl)" style="width: 100%; margin-bottom: 70px;" />
+    }
+
+    <div style="width: 10%">
+        <img src="/Content/Images/surport.png" style="width: 100%; margin-bottom: 50px;" />
+    </div>
+    
+    
+    @foreach (var list in lists)
+    {
+        <div style="width: 100%">
+            <div style="width: 80%; margin-left: 15%;">
+                <div style="width: 10%; float: left;">
+                    <div style="background-color: #ffa51a; width: 50px; height: 50px; vertical-align: middle; text-align: center; ">
+                        <h3 style="color: white; padding-top: 15px;">Q</h3>
+                    </div>
+                </div>
+                <div style="width: 80%; float: left;">
+                    <div class="arrow_up arrow" style="width: 100%;height: 50px;">
+                        <div style="padding-top: 10px;">
+                            <h3 class="font_up h3font" style="width: 90%; float: left; margin-left: 5px;">@list.title</h3>
+                            <div style="float: right; margin-right: 10px;">
+                                <a href="javascript:void(0);" class="showContent"><img src="/Content/Images/arrow.png" class="img_arrow_up img_arrow" /></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="clear: both;" class="divContent hidden" show="0">
+                        <div style="width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 20px solid #e3e3e3; margin-left: 10px;">
+
+                        </div>
+                        <div style="width: 100%; background-color: #e3e3e3;">
+                            <div style="padding: 5px 5px 0 5px;">
+                                @Html.Raw(list.content)
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    }
+    
+    
+</div>
+
+
+
+
+

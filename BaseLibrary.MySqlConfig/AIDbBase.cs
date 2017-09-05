@@ -392,7 +392,7 @@ namespace BaseLibrary.MySqlConfig
 
         #region Delete
 
-        /*
+        
         /// <summary>
         /// 删除一条记录
         /// </summary>
@@ -403,30 +403,29 @@ namespace BaseLibrary.MySqlConfig
             if (string.IsNullOrEmpty(TableName))
                 return 0;
 
-            int rowsAffected = Context.Sql(@"delete from @0 where @1 = @2")
-                .Parameters(TableName, ColumnKey, keyValue)
-                .Execute();
+            int rowsAffected = MySqlHelper.ExecuteNonQuery(MySqlHelper.ConnectionString, string.Format("delete from {0} where {1} = {2}",TableName,ColumnKey,keyValue));
 
             return rowsAffected;
         }
 
-        /// <summary>
-        /// 删除一条记录
-        /// </summary>
-        /// <param name="keyValue"></param>
-        /// <returns></returns>
-        public int Delete(string keyValue)
-        {
-            if (string.IsNullOrEmpty(TableName))
-                return 0;
 
-            int rowsAffected = Context.Sql(@"delete from @0 where @1 = '@2'")
-                .Parameters(TableName, ColumnKey, keyValue)
-                .Execute();
+        ///// <summary>
+        ///// 删除一条记录
+        ///// </summary>
+        ///// <param name="keyValue"></param>
+        ///// <returns></returns>
+        //public int Delete(string keyValue)
+        //{
+        //    if (string.IsNullOrEmpty(TableName))
+        //        return 0;
 
-            return rowsAffected;
-        }
-        */
+        //    int rowsAffected = Context.Sql(@"delete from @0 where @1 = '@2'")
+        //        .Parameters(TableName, ColumnKey, keyValue)
+        //        .Execute();
+
+        //    return rowsAffected;
+        //}
+        //*/
         #endregion
 
     }

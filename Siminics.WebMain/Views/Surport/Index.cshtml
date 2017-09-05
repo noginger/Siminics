@@ -1,0 +1,45 @@
+﻿@using BaseLibrary.Common
+@using Siminics.Model
+@{
+    ViewBag.Title = "技术支持";
+    Layout = "~/Views/Shared/_Main_Frame.cshtml";
+    SlideModel model = ViewBag.Slide;
+    List<SurportTypeModel> lists = ViewBag.List;
+}
+
+<div class="container-fluid">
+    @if (model != null)
+    {
+        <img src="@(model.imageurl)" style="width: 100%; margin-bottom: 70px;" />
+    }
+
+    @if (lists != null)
+    {
+        <div style="width: 10%">
+            <img src="/Content/Images/surport.png" style="width: 100%; margin-bottom: 50px;" />
+        </div>
+
+        foreach (SurportTypeModel item in lists)
+        {
+            <div style="width: 100%; min-width: 600px;">
+                <div style="width: 80%; margin-left: 15%; margin-bottom: 50px;">
+                    <div style="width: 30%; float: left; margin-bottom: 20px;">
+                        <img src="@item.ImageUrl" style="width: 80%; ;" />
+                    </div>
+                    <div style="width: 70%; float: left;">
+                        <h3><a href="/Surport/List?id=@item.Id">@item.TypeName</a></h3>
+                        <p style="width: 80%; min-height: 150px;">
+                            @item.ShortDesc
+                        </p>
+                        <a href="/Surport/List?id=@item.Id" style="margin-top: 30px; display: block;">了解更多</a>
+                    </div>
+                </div>
+                <div style="height: 30px; margin-top: 5px; width: 80%; clear: both; margin-left: 15%;">
+                    <hr style="height: 1px; width: 100%;background-color: lightgrey" />
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        }
+    }
+</div>
+

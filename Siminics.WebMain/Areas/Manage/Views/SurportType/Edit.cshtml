@@ -1,0 +1,63 @@
+﻿@model Siminics.Model.SurportTypeModel
+
+@{
+    ViewBag.Title = "编辑技术支持分类";
+    Layout = "~/Views/Shared/_Manage_Frame.cshtml";
+}
+
+@section RenderCss
+{
+    <link href="/Plugs/uploadify/uploadify.css" rel="stylesheet" />
+}
+
+@section RenderJs
+{
+    <script src="/Scripts/jquery.form.js"></script>
+    <script src="/Plugs/uploadify/jquery.uploadify.min.js"></script>
+    <script src="/Scripts/upload.js"></script>
+}
+
+<div class="body_center">
+    <!--   内容-->
+    <div class="page_ubox">
+        @using (Html.BeginForm("Edit", "SurportType", FormMethod.Post, new { @id = "form1" }))
+        {
+            @Html.ValidationSummary(true)
+            @Html.HiddenFor(model=>model.Id)
+            <div class="tab_titles">父级分类：</div>
+            <div class="tab_infoss">
+                @Html.DropDownListFor(model => model.ParentId, (List<SelectListItem>)ViewBag.SurportTypes, new { @class = "inputbox" })
+                <small>不选则为顶级,顶级父类不需要编辑图片和介绍</small>
+            </div>
+            <div class="clear"></div>
+            <div class="tab_titles">类型名称：</div>
+            <div class="tab_infoss">
+                @Html.TextBoxFor(model => model.TypeName, new { @class = "inputbox", size = 50, maxlength = 20 })<small>*</small>
+            </div>
+            <div class="clear"></div>
+            <div class="tab_titles">封面图片：</div>
+            <div class="tab_infoss">
+                <div id="ImageControl" style="float: left">
+                    <input type="file" id="singleImg_upload" />
+                    @Html.Raw(ViewBag.Images)
+                    @Html.HiddenFor(model => model.ImageHtml, new { @id = "hidImageHtml" })
+                    @Html.HiddenFor(model => model.ImageUrl, new { @id = "hidPath" })
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="tab_titles">文字介绍：</div>
+            <div class="tab_infoss">
+                @Html.TextAreaFor(model => model.ShortDesc, new { @class = "inputbox", maxlength = 200, style = "width: 500px;height:100px;" })<small>*</small>
+            </div>
+            <div class="clear"></div>
+            <div class="tab_titles">排序序号：</div>
+            <div class="tab_infoss">
+                @Html.TextBoxFor(model => model.Sort, new { @class = "inputbox", size = 50, maxlength = 2 })<small>*</small>
+            </div>
+            <div class="clear"></div>
+            <p>
+                <input class="submit_b" type="submit" value="提交保存" />
+            </p>
+        }
+    </div>
+</div>

@@ -1,0 +1,91 @@
+﻿@using BaseLibrary.Common
+@using Siminics.Model
+@{
+    ViewBag.Title = "新闻中心";
+    Layout = "~/Views/Shared/_Main_Frame.cshtml";
+    SlideModel model = ViewBag.Slide;
+    NewsContentModel news = ViewBag.News;
+    NewsContentModel active = ViewBag.Active;
+    NewsContentModel media = ViewBag.Media;
+}
+
+<div class="container-fluid">
+    @if (model != null)
+    {
+        <img src="@(model.imageurl)" style="width: 100%; margin-bottom: 70px;" />
+    }
+    
+    @if (news != null)
+    {
+        <div style="width: 100%">
+            <div style="width: 10%">
+                <img src="/Content/Images/news.png" style="width: 100%; margin-bottom: 50px;" />
+            </div>
+            <div style="width: 80%;margin-left: 15%">
+                <div style="width: 30%; float: left;">
+                    <img src="@news.imageurl" style="width: 80%" />
+                </div>
+                <div style="width: 70%; float: left;">
+                    <h3><a href="">@news.title</a></h3>
+                    <p style="width: 90%">
+                        @news.shortdesc
+                    </p>
+                    <a href="/NewsCenter/List?tid=@((int)EnumConst.NewsContentType.News)">了解更多</a>
+                    <hr style="height: 1px; width: 60%;background-color: #999" />
+                </div>
+            </div>
+        </div>
+    }
+    
+    @if (active != null)
+    {
+        <div style="width: 100%">
+            <div style="width: 10%">
+                <img src="/Content/Images/active.png" style="width: 100%; margin-bottom: 50px;" />
+            </div>
+            <div style="width: 80%;margin-left: 15%">
+                <div style="width: 30%; float: left;">
+                    <img src="@active.imageurl" style="width: 80%" />
+                </div>
+                <div style="width: 70%; float: left;">
+                    <h3><a href="">@active.title</a></h3>
+                    <p style="width: 90%">
+                        @active.shortdesc
+                    </p>
+                    <a href="/NewsCenter/List?tid=@((int)EnumConst.NewsContentType.Active)">了解更多</a>
+                    <hr style="height: 1px; width: 60%;background-color: #999" />
+                </div>
+            </div>
+        </div>
+    }
+    
+    
+    @if (media != null)
+    {
+        <div style="width: 100%">
+            <div style="width: 10%">
+                <img src="/Content/Images/media.png" style="width: 100%; margin-bottom: 50px;" />
+            </div>
+            <div style="width: 80%;margin-left: 15%">
+                <div style="width: 30%; float: left;">
+                    <img src="@media.imageurl" style="width: 80%" />
+                </div>
+                <div style="width: 70%; float: left;">
+                    <h3><a href="">@media.title</a></h3>
+                    <p style="width: 90%">
+                        @media.shortdesc
+                    </p>
+                    <a href="/NewsCenter/List?tid=@((int)EnumConst.NewsContentType.Media)">了解更多</a>
+                    <hr style="height: 1px; width: 60%;background-color: #999" />
+                </div>
+            </div>
+        </div>
+    }
+
+    
+</div>
+
+
+
+
+

@@ -3,8 +3,9 @@
 @using Cee.Tools.Types
 @using Siminics.Model
 @{
-    ViewBag.Title = "商品管理";
+    ViewBag.Title = "产品管理";
     Layout = "~/Views/Shared/_Manage_Frame.cshtml";
+    List<SelectListItem> products = ViewBag.Products;
 }
 @section RenderJs
 {
@@ -18,7 +19,7 @@
         function getUrl() {
             var _filter = $('#s_filter').val();
             var _text = $("#s_text").val();
-            if (_text == "产品名称")
+            if (_text == "型号名称")
                 _text = "";
             urlRedirect({ s_filter: _filter, s_text: _text });
         };
@@ -29,12 +30,14 @@
     <div class="select_condition">
         产品类型：
         <select id="s_filter" >
-            <option value="0">-请选择-</option>
-            <option value="@((int)EnumConst.ProductType.Template)" @(ViewBag.Status==(int)EnumConst.ProductType.Template?"selected='selected'":"")>模板</option>
-            <option value="@((int)EnumConst.ProductType.Local)" @(ViewBag.Status==(int)EnumConst.ProductType.Local?"selected='selected'":"")>本地</option>
-            <option value="@((int)EnumConst.ProductType.WeChat)" @(ViewBag.Status==(int)EnumConst.ProductType.WeChat?"selected='selected'":"")>微信</option>
+            @{
+                foreach (var item in products)
+                {
+                    <option value="@item.Value" @(item.Selected?"selected='selected'":"")>@item.Text</option>
+                }
+            }
         </select>
-        <input type="text" id="s_text" value="@ViewBag.Text" tip="产品名称" class="long" style="width: 200px;"/>
+        <input type="text" id="s_text" value="@ViewBag.Text" tip="型号名称" class="long" style="width: 200px;"/>
         <input class="btn" id="search_list" type="button" />
     </div>
     <div class="handle">
@@ -56,6 +59,25 @@
                     <td>@info.modelname</td>
                     <td>@info.productname</td>
                     <td>@info.sort</td>
+                    <td class="tright">
+                        <div class="t_position">
+                            <div class="r_pull_down">
+                                <ul>
+                                    <li>
+                                      
+                                        <a href="/Manage/Product/Edit?id=@info.ModelId">编辑</a>
+                                    <a href="javascript:void(0);" ref="ShowRoleDown">
+                                        <img src="/Content/images/arrow_down.png" width="14" height="14" />
+                                    </a><div class="clear"></div>
+                                </li>
+                                <li>
+                                    <a href="/Manage/Product/Delete?id=@info.ModelId">删除</a>
+                                    <div class="clear"></div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </td>
                     @*<td class="tleft">
                         <div class="pbox">
                             @if(!string.IsNullOrEmpty(info.ShowImage))
@@ -70,26 +92,7 @@
                     <td>@info.DownCount</td>
                     <td>@(info.IsSale==1?"上架":"下架")</td>
                     <td>@(TimeHelper.LongToTime(info.CreateTime).ToString("yyyy-MM-dd HH:mm"))</td>
-                    <td class="tright">
-                        <div class="t_position">
-                            <div class="r_pull_down">
-                                <ul>
-                                    <li>@Html.RouteLink("编辑", new { controller = "Product", action = "Edit", id = info.ProductId })
-                                        <a href="javascript:void(0);" ref="ShowRoleDown">
-                                            <img src="/Content/images/arrow_down.png" width="14" height="14" />
-                                        </a><div class="clear"></div></li>
-                                    <li>
-                                        <a href="javascript:void(0)" name="linkDelete" value="@info.ProductId">删除</a>
-                                        <div class="clear"></div>
-                                    </li>
-                                    <li>
-                                        <a href="/Product/ChangeSale/@info.ProductId" value="@info.ProductId">@(info.IsSale==1?"下架":"上架")</a>
-                                        <div class="clear"></div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </td>*@
+                    *@
                 </tr>
             }
         </table>

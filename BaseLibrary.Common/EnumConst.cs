@@ -407,7 +407,7 @@ namespace BaseLibrary.Common
 
         #region 文本类型
 
-        public enum ContentType
+        public enum CompanyContentType
         {
             /// <summary>
             /// 企业介绍
@@ -415,15 +415,51 @@ namespace BaseLibrary.Common
             [EnumDescription("企业介绍", 1)]
             CompanyIntro = 1,
             /// <summary>
-            /// 销售政策
+            /// 加入我们
             /// </summary>
-            [EnumDescription("销售政策", 2)]
-            SalePolicy = 2,
+            [EnumDescription("加入我们", 2)]
+            JoinUs = 2,
             /// <summary>
             /// 联系方式
             /// </summary>
-            [EnumDescription("联系方式", 3)]
-            Contact = 3
+            [EnumDescription("联系我们", 3)]
+            Contact = 3,
+
+            /// <summary>
+            /// 交通线路
+            /// </summary>
+            [EnumDescription("交通线路", 4)]
+            Traffic = 4,
+        }
+
+        public enum NewsContentType
+        {
+            /// <summary>
+            /// 常见问题
+            /// </summary>
+            [EnumDescription("常见问题", 1)]
+            CommconQuestion = 1,
+            /// <summary>
+            /// 技术支持
+            /// </summary>
+            [EnumDescription("技术支持", 2)]
+            Surport = 2,
+
+            /// <summary>
+            /// 新闻资讯
+            /// </summary>
+            [EnumDescription("新闻资讯", 3)]
+            News=3,
+            /// <summary>
+            /// 展会活动
+            /// </summary>
+            [EnumDescription("展会活动", 4)]
+            Active = 4,
+            /// <summary>
+            /// 新闻资讯
+            /// </summary>
+            [EnumDescription("媒体报道", 5)]
+            Media = 5
         }
 
         #endregion
@@ -535,19 +571,27 @@ namespace BaseLibrary.Common
 
         #endregion
 
-        #region Cms_Banner位置
+        #region Banner位置
 
         /// <summary>
         /// Banner位置
         /// </summary>
-        public enum CmsBanner
+        public enum BannerPosition
         {
-            [EnumDescription("模板版块", 1)]
-            Templates = 1,
-            [EnumDescription("本地游戏版块", 2)]
-            Local=2,
-            [EnumDescription("微信版块", 4)]
-            WeChat=3
+            [EnumDescription("首页", 1)]
+            Index = 1,
+            [EnumDescription("产品中心", 2)]
+            Product =2,
+            [EnumDescription("关于星秒", 3)]
+            Company = 3,
+            [EnumDescription("新闻中心", 4)]
+            News = 4,
+            [EnumDescription("技术支持", 5)]
+            Surport = 5,
+            [EnumDescription("加入我们", 6)]
+            JoinUs = 6,
+            [EnumDescription("联系我们", 7)]
+            ContactUs = 7,
         }
 
         #endregion

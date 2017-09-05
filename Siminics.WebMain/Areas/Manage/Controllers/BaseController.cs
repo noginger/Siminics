@@ -28,7 +28,8 @@ namespace Siminics.WebMain.Areas.Manage.Controllers
             _requestContext = requestContext;
             //验证系统用户登录状态
             _sysUserModel = LoginProccess.GetSession();
-            if (_sysUserModel == null || _sysUserModel.SysUserInfo.UserId <= 0)
+            
+            if (_sysUserModel == null || string.IsNullOrEmpty(_sysUserModel.EncryptLoginId))
             {
                 _requestContext.HttpContext.Response.Redirect("/Manage/Login");
                 return;

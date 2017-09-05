@@ -12,7 +12,9 @@ namespace Siminics.WebMain.Models
         /// auto_increment
         /// </summary>		 
         public int ProductId { get; set; }
-        
+
+        public int ModelId { get; set; }
+
         [Required(ErrorMessage = "请填写产品名称")]
         public string ProductName { get; set; }
 
@@ -23,6 +25,15 @@ namespace Siminics.WebMain.Models
         /// ShowImage
         /// </summary>		 
         public string ShowImage { get; set; }
+
+        public string AnotherImages { get; set; }
+
+        public string AnotherImageHtml { get; set; }
+
+        /// <summary>
+        /// 图片html
+        /// </summary>
+        public string ImagesHtml { get; set; }
 
         /// <summary>
         /// DownAddress

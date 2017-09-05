@@ -53,6 +53,7 @@
     <Compile Include="OperationResultType.cs" />
     <Compile Include="Pager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Uploader.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Cee.Tools\Cee.Tools.csproj">

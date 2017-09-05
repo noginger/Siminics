@@ -1,0 +1,82 @@
+﻿@using BaseLibrary.Common
+@using Cee.Tools
+@using Cee.Tools.Types
+@using Siminics.Model
+@{
+    ViewBag.Title = "幻灯片管理";
+    Layout = "~/Views/Shared/_Manage_Frame.cshtml";
+    List<SelectListItem> products = ViewBag.Products;
+}
+@section RenderJs
+{
+    <script src="/Scripts/index.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#search_list').click(function () {
+                getUrl();
+            });
+        });
+        function getUrl() {
+            var _filter = $('#s_filter').val();
+            var _text = $("#s_text").val();
+            if (_text == "型号名称")
+                _text = "";
+            urlRedirect({ s_filter: _filter, s_text: _text });
+        };
+    </script>
+}
+
+<div class="body_center">
+    @*<div class="select_condition">
+        <input type="text" id="s_text" value="@ViewBag.Text" tip="型号名称" class="long" style="width: 200px;" />
+        <input class="btn" id="search_list" type="button" />
+    </div>*@
+    <div class="handle">
+        @Html.RouteLink("添加", new { controller = "Slide", action = "Add" }, new { @class = "create" })
+    </div>
+    <div class="clear"></div>
+    <!--列表-->
+    <div class="tablelist">
+        <table width="100%" border="0">
+            <tr class="title">
+                <td width="100">编号</td>
+                <td width="350">图片</td>
+                <td width="">链接</td>
+                <td width="100">位置</td>
+                <td width="140">排序</td>
+                <td width="110">操作</td>
+            </tr>
+            @foreach (SlideModel info in ViewBag.Info)
+            {
+                <tr>
+                    <td>@info.id</td>
+                    <td><img src="@info.imageurl" width="300" height="150"/></td>
+                    <td>@info.link</td>
+                    <td>@(((EnumConst.BannerPosition)info.position).ToDesc())</td>
+                    <td>@info.Sort</td>
+                    <td class="tright">
+                        <div class="t_position">
+                            <div class="r_pull_down">
+                                <ul>
+                                    <li>
+                                        <a href="/Manage/Slide/Edit?id=@info.id">编辑</a>
+                                        <a href="javascript:void(0);" ref="ShowRoleDown">
+                                            <img src="/Content/images/arrow_down.png" width="14" height="14" />
+                                        </a><div class="clear"></div>
+                                    </li>
+                                    <li>
+                                        <a href="/Manage/Slide/Delete?id=@info.id">删除</a>
+                                        <div class="clear"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </table>
+        <div class="pagebox">
+            @MvcHtmlString.Create(ManageMvcPaging.Create(25, ViewBag.Count, 5, false))
+        </div>
+    </div>
+</div>

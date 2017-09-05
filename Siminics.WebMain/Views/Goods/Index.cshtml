@@ -1,0 +1,193 @@
+﻿@using Siminics.Model
+
+@{
+    ViewBag.Title = "产品中心";
+    Layout = "~/Views/Shared/_Main_Frame.cshtml";
+    SlideModel model = ViewBag.Slide;
+    List<ProductModelEntity> productModels = ViewBag.ProductModels;
+}
+
+@section RenderCss
+{
+    <style>
+        .hidden { display: none; }
+        .clearul { -webkit-padding-start: 0px; }
+        .ul_menu {width: 100%;list-style: none;min-width: 600px;}
+        .menu_li {float: left;margin-left: 5px;width: 9%;height: 50px;text-align: center;line-height: 50px;background-color: #4268c9;color: #fff;cursor: pointer;}
+        .choose_li {background-color: #f2f2f2;color: #4268c9;font-weight: bold;font-size: 20px;}
+        .clear { clear: both }
+        .pro_img {width: 40%;float: left;min-width: 350px;padding-left: 10%;}
+        .pro_img img {width: 90%;height: 80%;vertical-align: top;padding-top: 40px;}
+        .pro_img ul {width: 90%;list-style: none;margin-top: 10px;text-align: center;}
+        .img_li {float: none;background-color: white;width: 52px;height: 6px;display: inline-block;cursor: pointer;}
+        .pro_content {width: 60%;float: left;line-height: 35px;min-height: 350px;}
+        .div_pro {width: 100%;background-color: #f2f2f2;min-height: 400px;height: auto;}
+        .pro_desc {padding-right: 200px;padding-top: 40px;min-height: 300px; }
+        .pro_down { text-align: right; }
+        .pro_down a {text-decoration: underline;color: #333;font-size: 17px;padding-right: 8%;}
+        .img_li_choose { background-color: lightgrey; }
+        .img_li:hover { background-color: lightgrey; }
+
+        .div_apply { width:100%;}
+
+        .div_anoth_img { width: 100%; }
+        .div_anoth_img ul {list-style: none;text-align: center;}
+        .div_anoth_img li {width: 25%;padding-right: 5px;text-align: center;display: inline-block;}
+        .div_anoth_img li img {width: 100%;vertical-align: top;}
+    </style>
+}
+<script type="text/javascript">
+    $(function () {
+        var name;
+        $(".img_li").click(function () {
+            var _this = $(this);
+            var src = _this.attr("src");
+
+            $(".img_li").each(function () {
+                if (name!=null&&name == $(this).parent().attr("name")) {
+                    $(this).removeClass("img_li_choose");
+                }
+            });
+
+            $(".pro_img > img").each(function () {
+
+                if (name!=null&&name == $(this).parent().attr("name")) {
+                    $(this).addClass("hidden");
+                    $(this).removeClass("img_li_choose");
+                }
+
+                if ($(this).attr("src") === src) {
+                    $(this).removeClass("hidden");
+                    _this.addClass("img_li_choose");
+                }
+            });
+        });
+
+        $(".menu_li").click(function () {
+            var _this = $(this);
+            var modelName = _this.attr("n");
+            name = modelName;
+            $(".div_pro").each(function() {
+                if ($(this).attr("name") === modelName) {
+                    $(".menu_li").removeClass("choose_li");
+                    _this.addClass("choose_li");
+                    $(".div_pro").addClass("hidden");
+                    $(this).removeClass("hidden");
+                };
+            });
+            $(".div_anoth_img").each(function () {
+                $(this).addClass("hidden");
+                if ($(this).attr("name") === modelName) {
+                    $(this).removeClass("hidden");
+                }
+            });
+
+            $(".div_apply").each(function() {
+                $(this).addClass("hidden");
+                if ($(this).attr("name") === modelName) {
+                    $(this).removeClass("hidden");
+                }
+            });
+        });
+    });
+</script>
+
+<div class="container-fluid">
+    @if (model != null)
+    {
+        <img src="@(model.imageurl)" style="width: 100%; " />
+    }
+    
+    <div style="margin-bottom: 50px;">
+        <ul class="ul_menu clearul">
+            @for (int i = 0; i < productModels.Count; i++)
+            {
+                <li class="menu_li @(i==0?"choose_li":"")" n="@productModels[i].modelname" style="@(i==0?"margin-left: 0px;":"")">@productModels[i].modelname</li>
+            }
+        </ul>
+        <div class="clear"></div>
+        <div class="ul_menu">
+            @for (int i = 0; i < productModels.Count; i++)
+            {
+                <div class="div_pro ul @(i==0?"":"hidden")" name="@productModels[i].modelname">
+                    <div class="pro_img" name="@productModels[i].modelname">
+                        @if (productModels[i].Images != null)
+                        {
+                            int j = 0;
+                            foreach (var image in productModels[i].Images.Where(o => o.TypeId == 1))
+                            {
+                                <img class="@(j==0?"":"hidden")" src="@image.imageurl" />
+                                j++;
+                            }
+                        }
+                        <div style="width: 100%;">
+                            <ul class="imgul clearul" name="@productModels[i].modelname">
+                                @if (productModels[i].Images != null)
+                                {
+                                    int j = 0;
+                                    foreach (var image in productModels[i].Images.Where(o => o.TypeId == 1))
+                                    {
+                                        <li class="img_li @(j==0?"img_li_choose":"")" src="@(image.imageurl)"></li>
+                                        j++;
+                                    }
+                                }
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pro_content">
+                        <div class="pro_desc">
+                            @Html.Raw(productModels[i].desc)
+                        </div>
+                        @if (!string.IsNullOrEmpty(productModels[i].downurl))
+                        {
+                            <div class="pro_down">
+                                <a href="@productModels[i].downurl">资料下载</a>
+                            </div>
+                        }
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    
+    <div class="clear"></div>
+    @for (int i = 0; i < productModels.Count; i++)
+    {
+        if (!string.IsNullOrEmpty(productModels[i].apply))
+        {
+            <div class="div_apply @(i == 0 ? "" : "hidden")" name="@productModels[i].modelname" style="margin-bottom: 50px;">
+                <div style="text-align: center; margin-bottom: 30px;">
+                    <img src="/Content/Images/apply.png" style="width: 10%;"/>
+                </div>
+                <div style="width: 80%; margin-left: 20%;">
+                    @Html.Raw(productModels[i].apply)
+                </div>
+            </div>
+        }
+    }
+    
+    @for (int i = 0; i < productModels.Count; i++)
+    {
+        if (productModels[i].Images!=null && productModels[i].Images.Any(o=>o.TypeId==2))
+        {
+            <div class="div_anoth_img @(i == 0 ? "" : "hidden")" name="@productModels[i].modelname">
+                <div style="margin-bottom: 30px;">
+                    <div style="width: 10%;">
+                        <img src="/Content/Images/dianyun.png" style="width: 100%;"/>
+                    </div>
+                </div>
+                <ul class="clearul">
+                    @{
+                        int j = 0;
+                        foreach (var image in productModels[i].Images.Where(o => o.TypeId == 2))
+                        {
+                            <li><img class="an_img" src="@(image.imageurl)" /></li>
+                            j++;
+                        }
+                    }
+                </ul>
+            </div>
+        }
+    }
+</div>
+

@@ -1,0 +1,61 @@
+﻿@using BaseLibrary.Common
+@using Cee.Tools
+@using Cee.Tools.Types
+@using Siminics.Model
+@{
+    ViewBag.Title = "产品类型管理";
+    Layout = "~/Views/Shared/_Manage_Frame.cshtml";
+}
+@section RenderJs
+{
+    <script src="/Scripts/index.js"></script>
+}
+
+<div class="body_center">
+    <div class="select_condition">
+    </div>
+    <div class="handle">
+        @Html.RouteLink("添加", new { controller = "Product", action = "AddType" }, new { @class = "create" })
+    </div>
+    <div class="clear"></div>
+    <!--列表-->
+    <div class="tablelist">
+        <table width="100%" border="0">
+            <tr class="title">
+                <td width="80">类型编号</td>
+                <td width="">产品类型名称</td>
+                <td width="140">排序</td>
+                <td width="110">操作</td>
+            </tr>
+            @foreach (ProductModel info in ViewBag.Info)
+            {
+                <tr>
+                    <td>@info.ProductId</td>
+                    <td>@info.productname</td>
+                    <td>@info.sort</td>
+                    <td class="tright">
+                        <div class="t_position">
+                            <div class="r_pull_down">
+                                <ul>
+                                    <li>
+                                        <a href="/Manage/Product/EditType?id=@info.ProductId">编辑</a>
+                                        <a href="javascript:void(0);" ref="ShowRoleDown">
+                                            <img src="/Content/images/arrow_down.png" width="14" height="14" />
+                                        </a><div class="clear"></div>
+                                    </li>
+                                    <li>
+                                        <a href="/Manage/Product/DeleteType?id=@info.ProductId">删除</a>
+                                        <div class="clear"></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </table>
+        <div class="pagebox">
+            @MvcHtmlString.Create(ManageMvcPaging.Create(25, ViewBag.Count, 5, false))
+        </div>
+    </div>
+</div>

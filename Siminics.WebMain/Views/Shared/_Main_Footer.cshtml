@@ -1,0 +1,58 @@
+﻿@using Siminics.Model
+
+<footer style="margin-top: 50px;">
+    <div id="footer">
+        <div class="container">
+            <div class="row row-bottom-padded-md">
+                <div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+                    <h3>关于星秒</h3>
+                    <ul>
+                        <li><a href="/AboutUse">公司简介</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+                    <h3>技术支持</h3>
+                    <ul>
+                        @foreach (ProductModel item in ViewBag.ProductTypes)
+                        {
+                            <li><a href="/Surport?id=@item.ProductId">@item.productname</a></li>
+                        }
+                        <li><a href="/Surport/CommonQuestion">常见问题</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+                    <h3>新闻中心</h3>
+                    <ul>
+                        <li><a href="/NewsCenter">新闻资讯</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+                    <h3>加入我们</h3>
+                    <ul>
+                        <li><a href="/JoinUs">社会招聘</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+                    <h3>联系我们</h3>
+                    <ul>
+                        <li><a href="#">联系方式</a></li>
+                        <li><a href="#">公司地址</a></li>
+                        <li><a href="#">留言反馈</a></li>
+                    </ul>
+                </div>
+                @*<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
+                        <h3>Affordable</h3>
+                        <ul>
+                            <li><a href="#">Food &amp; Drink</a></li>
+                            <li><a href="#">Fare Flights</a></li>
+                        </ul>
+                    </div>*@
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                    <p>Copyright © 2015-2017 www.siminics.com All Rights Reserved. <br>版权所有:上海星秒光电科技有限公司</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

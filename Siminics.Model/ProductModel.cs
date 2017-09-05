@@ -29,11 +29,11 @@ namespace Siminics.Model
         /// <summary>
         /// typeid
         /// </summary>		
-        private int _typeid;
-        public int typeid
+        private int _sort;
+        public int sort
         {
-            get { return _typeid; }
-            set { _typeid = value; }
+            get { return _sort; }
+            set { _sort = value; }
         }
     }
 }

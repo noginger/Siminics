@@ -1,0 +1,50 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="/css/animate.css">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <!-- Superfish -->
+    <link rel="stylesheet" href="/css/superfish.css">
+
+    <link rel="stylesheet" href="/css/style.css">
+    @RenderSection("RenderCss", false)
+    <script src="/js/modernizr-2.6.2.min.js"></script>
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/jquery.waypoints.min.js"></script>
+    <script src="/js/sticky.js"></script>
+    <script src="/js/jquery.stellar.min.js"></script>
+    <script src="/js/superfish.js"></script>
+    <!-- Main JS -->
+    <script src="/js/main.js"></script>
+    <title>@if (ViewBag.Title == "上海星秒光电科技有限公司")
+           {@(ViewBag.Title)}
+           else
+           {@(ViewBag.Title+ "-上海星秒光电科技有限公司")}
+    </title>
+</head>
+
+<body>
+<div id="fh5co-wrapper">
+    <div id="fh5co-page">
+        @Html.Partial("_Main_Nav")
+        @RenderBody()
+        <!--页面底部-->
+        @Html.Partial("_Main_Footer")
+    </div>
+</div>
+<!-- END fh5co-wrapper -->
+    
+    
+
+</body>
+
+</html>

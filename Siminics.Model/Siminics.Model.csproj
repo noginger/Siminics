@@ -40,12 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompanyContentModel.cs" />
+    <Compile Include="LeaveMessageModel.cs" />
     <Compile Include="ModelSourceModel.cs" />
     <Compile Include="NewsContentModel.cs" />
     <Compile Include="ProductModel.cs" />
     <Compile Include="ProductModelEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SlideModel.cs" />
+    <Compile Include="SurportTypeModel.cs" />
     <Compile Include="SysUser.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -10,9 +10,9 @@ namespace Siminics.WebMain.Global
 {
     public class LoginProccess
     {
-        public static readonly string _sysUserSessionKey = "SYSUSER_KEY";
+        public static readonly string _sysUserSessionKey = "SYSUSER_Siminc_KEY";
 
-        public static readonly string _sysUserCookieKey = "SYSUSER_COOKIE_KEY";
+        public static readonly string _sysUserCookieKey = "SYSUSER_Siminc_COOKIE_KEY";
 
         #region 写入session
 
@@ -34,22 +34,28 @@ namespace Siminics.WebMain.Global
                                                                       userInfo.LoginIp, 1);
             sysUserModel.EncryptLoginId = new Encryption().EncodeLogin(loginInfo);
 
-            HttpSessionState httpSession = HttpContext.Current.Session;
-            if (httpSession[_sysUserSessionKey] != null)
-                httpSession.Remove(_sysUserSessionKey);
-            httpSession.Add(_sysUserSessionKey, sysUserModel);
+            //HttpSessionState httpSession = HttpContext.Current.Session;
+            //if (httpSession[_sysUserSessionKey] != null)
+            //    httpSession.Remove(_sysUserSessionKey);
+            //httpSession.Add(_sysUserSessionKey, sysUserModel);
 
             //写入Cookie
             HttpCookie cookie = new HttpCookie(_sysUserCookieKey);
             cookie.Value = sysUserModel.EncryptLoginId;
-            cookie.Domain =
-                HttpContext.Current.Request.Url.Host.Substring(HttpContext.Current.Request.Url.Host.IndexOf(".") + 1);
+            cookie.Domain = HttpContext.Current.Request.Url.Host.Substring(HttpContext.Current.Request.Url.Host.IndexOf(".") + 1);
             cookie.Path = "/";
-            if (HttpContext.Current.Response.Cookies[_sysUserCookieKey] != null)
-                HttpContext.Current.Response.Cookies.Set(cookie);
-            else
-                HttpContext.Current.Response.Cookies.Add(cookie);
+            cookie.Expires = DateTime.Now.AddDays(1);
 
+            if (HttpContext.Current.Response.Cookies[_sysUserCookieKey] != null)
+            {
+                HttpContext.Current.Response.Cookies[_sysUserCookieKey].Expires = DateTime.Now.AddDays(-1);
+                HttpContext.Current.Response.Cookies.Add(cookie);
+            }
+            else
+            {
+                HttpContext.Current.Response.Cookies.Add(cookie);
+            }
+                
             return sysUserModel;
         }
 
@@ -59,9 +65,9 @@ namespace Siminics.WebMain.Global
 
         public static void ClearSession()
         {
-            HttpSessionState httpSession = HttpContext.Current.Session;
-            if (httpSession[_sysUserSessionKey] != null)
-                httpSession.Remove(_sysUserSessionKey);
+            //HttpSessionState httpSession = HttpContext.Current.Session;
+            //if (httpSession[_sysUserSessionKey] != null)
+            //    httpSession.Remove(_sysUserSessionKey);
 
             //清除cookie
             if (HttpContext.Current.Response.Cookies[_sysUserCookieKey] != null)
@@ -78,11 +84,22 @@ namespace Siminics.WebMain.Global
         /// <returns></returns>
         public static SysUserModel GetSession()
         {
-            SysUserModel sysUserModel = null;
+            SysUserModel sysUserModel = new SysUserModel();
 
-            HttpSessionState httpSession = HttpContext.Current.Session;
-            if (httpSession[_sysUserSessionKey] != null)
-                sysUserModel = (SysUserModel) httpSession[_sysUserSessionKey];
+            if (HttpContext.Current.Request.Cookies[_sysUserCookieKey] != null)
+            {
+                sysUserModel.EncryptLoginId = HttpContext.Current.Request.Cookies[_sysUserCookieKey].Value;
+                Encryption.LoginInfo  loginInfo = new Encryption().DecodeLogin(sysUserModel.EncryptLoginId);
+                if (loginInfo == null)
+                    return null;
+
+                sysUserModel.SysUserInfo = new SysUserInfo();
+                sysUserModel.SysUserInfo.RealName = loginInfo.UserName;
+                sysUserModel.SysUserInfo.UserId = loginInfo.UserId;
+                sysUserModel.SysUserInfo.LastLoginDate = loginInfo.LoginDate;
+                sysUserModel.SysUserInfo.LoginIp = loginInfo.IpAddress;
+            }
+                
 
             return sysUserModel;
         }

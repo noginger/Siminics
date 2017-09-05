@@ -11,11 +11,11 @@ namespace Siminics.Model
         /// <summary>
 		/// auto_increment
         /// </summary>		
-		private int _id;
-        public int id
+		private int _ModelId;
+        public int ModelId
         {
-            get { return _id; }
-            set { _id = value; }
+            get { return _ModelId; }
+            set { _ModelId = value; }
         }
         /// <summary>
         /// productid

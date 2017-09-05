@@ -1,0 +1,39 @@
+﻿@using Siminics.Model
+
+@{
+    Layout = "~/Views/Shared/_Main_Frame.cshtml";
+    List<SlideModel> slides = ViewBag.Slides;
+    ViewBag.Title = "上海星秒光电科技有限公司";
+}
+@section RenderCss{
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href="/CSS/owl.carousel.css" rel="stylesheet" />
+    <link href="/CSS/owl.theme.default.min.css" rel="stylesheet" />
+
+}
+<header>
+    <div class="container-fluid">
+        <div class="slider-container">
+
+            <div class="owl-slider owl-carousel">
+                @foreach (SlideModel item in slides)
+                {
+                    <div class="item">
+                        <div class="owl-slider-item">
+                            <a href="@item.link" target="_blank;"><img src="@(item.imageurl)" class="img-responsive" alt="@item.title"></a>
+                            @*<div class="intro-text">
+                                    <div class="intro-lead-in">We are the number one</div>
+                                    <div class="intro-heading">Design & Development Agency</div>
+                                </div>*@
+                        </div>
+                    </div>
+                }
+            </div>
+
+        </div>
+    </div>
+</header>
+<script src="/js/owl.carousel.min.js"></script>
+<script src="/js/cbpAnimatedHeader.js"></script>
+<script src="/js/theme-scripts.js"></script>

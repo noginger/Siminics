@@ -1,0 +1,45 @@
+﻿@using Siminics.Model
+
+@{
+    ViewBag.Title = "技术支持";
+    Layout = "~/Views/Shared/_Main_Frame.cshtml";
+    SlideModel model = ViewBag.Slide;
+    List<NewsContentModel> lists = ViewBag.List;
+}
+
+<div class="container-fluid">
+    @if (model != null)
+    {
+        <img src="@(model.imageurl)" style="width: 100%; margin-bottom: 70px;" />
+    }
+
+
+    @foreach (NewsContentModel list in lists)
+    {
+        <div style="width: 10%">
+            <img src="/Content/Images/surport.png" style="width: 100%; margin-bottom: 50px;" />
+        </div>
+
+        <div style="width: 100%">
+            <div style="width: 80%; margin-left: 15%">
+                <div style="width: 10%; float: left; min-width: 150px; margin-bottom: 10px;">
+                    <div style="background-color: lightgrey; width: 50%; min-width: 100px; min-height: 100px; text-align: center; vertical-align: middle">
+                        <h2 style="padding-top: 10px;">@list.createtime.Date.ToString("dd")</h2>
+                        <h4 style="margin-top: -10px;">@list.createtime.Date.ToString("yyyy/MM")</h4>
+                    </div>
+                </div>
+                <div style="width: 70%; float: left;">
+                    <h4><a href="/Surport/Detail?id=@list.NewsId" style="color: #333; font-weight: bold;">@list.title</a></h4>
+                    <p style="width: 90%">
+                        @list.shortdesc
+                    </p>
+                    <hr style="height: 1px; width: 100%; background-color: lightgrey" />
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    }
+</div>
+
+
+

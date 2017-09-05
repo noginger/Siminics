@@ -1,0 +1,28 @@
+﻿@using Siminics.Model
+
+@{
+    NewsContentModel news = ViewBag.NewInfo;
+    ViewBag.Title = "技术支持-" + news.title;
+    Layout = "~/Views/Shared/_Main_Frame.cshtml";
+}
+
+@section RenderCss
+{
+    <style>
+        p {
+            margin-bottom: 0px;
+        }
+    </style>
+}
+
+<div style="width: 100%">
+    <div style="width: 80%; margin-left: 10%; margin-top: 50px; margin-bottom: 50px;text-align: center">
+        @if (news != null)
+        {
+            <h3>@news.title</h3>
+            <div style="text-align: left;">
+                @Html.Raw(news.content)
+            </div>
+        }
+    </div>
+</div>

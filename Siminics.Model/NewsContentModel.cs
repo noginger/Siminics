@@ -9,14 +9,11 @@ namespace Siminics.Model
     public class NewsContentModel
     {
         /// <summary>
-		/// auto_increment
+        /// auto_increment
         /// </summary>		
-		private int _id;
-        public int id
-        {
-            get { return _id; }
-            set { _id = value; }
-        }
+
+        public int NewsId { get; set; }
+
         /// <summary>
         /// typeid
         /// </summary>		
@@ -71,5 +68,9 @@ namespace Siminics.Model
             get { return _shortdesc; }
             set { _shortdesc = value; }
         }
+
+        public int ProductId { get; set; }
+
+        public int Sort { get; set; }
     }
 }

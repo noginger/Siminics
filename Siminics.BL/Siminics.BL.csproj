@@ -40,8 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompanyContentBL.cs" />
+    <Compile Include="LeaveMessageBL.cs" />
+    <Compile Include="NewsContentBL.cs" />
     <Compile Include="ProductBL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SlideBL.cs" />
+    <Compile Include="SurportTypeBL.cs" />
     <Compile Include="SysUser.cs" />
   </ItemGroup>
   <ItemGroup>
