@@ -13,9 +13,9 @@
                 <div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
                     <h3>技术支持</h3>
                     <ul>
-                        @foreach (ProductModel item in ViewBag.ProductTypes)
+                        @foreach (SurportTypeModel item in ViewBag.SurportTypes)
                         {
-                            <li><a href="/Surport?id=@item.ProductId">@item.productname</a></li>
+                            <li><a href="/Surport?id=@item.Id">@item.TypeName</a></li>
                         }
                         <li><a href="/Surport/CommonQuestion">常见问题</a></li>
                     </ul>
@@ -24,6 +24,8 @@
                     <h3>新闻中心</h3>
                     <ul>
                         <li><a href="/NewsCenter">新闻资讯</a></li>
+                        <li><a href="/NewsCenter">展会活动</a></li>
+                        <li><a href="/NewsCenter">媒体报道</a></li>
                     </ul>
                 </div>
                 <div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
@@ -35,9 +37,9 @@
                 <div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
                     <h3>联系我们</h3>
                     <ul>
-                        <li><a href="#">联系方式</a></li>
-                        <li><a href="#">公司地址</a></li>
-                        <li><a href="#">留言反馈</a></li>
+                        <li><a href="/ContactUs">联系方式</a></li>
+                        <li><a href="/ContactUs">公司地址</a></li>
+                        <li><a href="/ContactUs">留言反馈</a></li>
                     </ul>
                 </div>
                 @*<div class="col-md-2 col-sm-2 col-xs-12 fh5co-footer-link">
