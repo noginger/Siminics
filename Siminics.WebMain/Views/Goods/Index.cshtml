@@ -3,7 +3,7 @@
 @{
     ViewBag.Title = "产品中心";
     Layout = "~/Views/Shared/_Main_Frame.cshtml";
-    SlideModel model = ViewBag.Slide;
+    ProductModel model = ViewBag.Slide;
     List<ProductModelEntity> productModels = ViewBag.ProductModels;
 }
 
@@ -95,7 +95,7 @@
 <div class="container-fluid">
     @if (model != null)
     {
-        <img src="@(model.imageurl)" style="width: 100%; " />
+        <img src="@(model.ImageUrl)" style="width: 100%; " />
     }
     
     <div style="margin-bottom: 50px;">

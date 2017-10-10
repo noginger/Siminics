@@ -63,9 +63,9 @@ namespace Siminics.BL
             return entity;
         }
 
-        public OperationResult Add(string typeName,int sort)
+        public OperationResult Add(string typeName,int sort,string imageurl)
         {
-            int row = new ProductDAL().AddType(typeName,sort);
+            int row = new ProductDAL().AddType(typeName,sort,imageurl);
             if (row > 0)
             {
                 return new OperationResult(OperationResultType.Success, "操作成功");

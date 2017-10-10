@@ -19,13 +19,14 @@ namespace Siminics.DAL
             base.ColumnKey = "productId";
         }
 
-        public int AddType(string typeName,int sort)
+        public int AddType(string typeName,int sort,string imageurl)
         {
-            string sql = "insert product(productname,sort) values(@productname,@sort)";
+            string sql = "insert product(productname,sort,imageurl) values(@productname,@sort,@imageurl)";
             MySqlParameter[] parameters = new MySqlParameter[]
             {
                 new MySqlParameter("@productname",typeName),
-                new MySqlParameter("@sort",sort)
+                new MySqlParameter("@sort",sort),
+                new MySqlParameter("@imageurl",imageurl), 
             };
 
             return MySqlHelper.ExecuteNonQuery(MySqlHelper.ConnectionString,sql,parameters);
@@ -33,12 +34,13 @@ namespace Siminics.DAL
 
         public int EditType(ProductModel entity)
         {
-            string sql = "update product set productname=@productname,sort=@sort where productid=@productid";
+            string sql = "update product set productname=@productname,sort=@sort,imageurl=@imageurl where productid=@productid";
             MySqlParameter[] parameters=new MySqlParameter[]
             {
                 new MySqlParameter("@productname",entity.productname),
                 new MySqlParameter("@sort",entity.sort),
-                new MySqlParameter("@productid",entity.ProductId),   
+                new MySqlParameter("@productid",entity.ProductId),  
+                new MySqlParameter("@imageurl",entity.ImageUrl),  
             };
             return MySqlHelper.ExecuteNonQuery(MySqlHelper.ConnectionString,sql,parameters);
         }

@@ -35,5 +35,7 @@ namespace Siminics.Model
             get { return _sort; }
             set { _sort = value; }
         }
+
+        public string ImageUrl { get; set; }
     }
 }

@@ -4,10 +4,16 @@
     Layout = "~/Views/Shared/_Manage_Frame.cshtml";
 }
 
+@section RenderCss
+{
+    <link href="/Plugs/uploadify/uploadify.css" rel="stylesheet" />
+}
 
 @section RenderJs
 {
     <script src="/Scripts/jquery.form.js"></script>
+    <script src="/Plugs/uploadify/jquery.uploadify.min.js"></script>
+    <script src="/Scripts/upload.js"></script>
 }
 
 <div class="body_center">
@@ -24,6 +30,17 @@
             <div class="tab_titles">排序序号：</div>
             <div class="tab_infoss">
                 @Html.TextBoxFor(model => model.Sort, new { @class = "inputbox", size = 50, maxlength = 2 })<small>*@Html.ValidationMessageFor(m => m.Sort)</small>
+            </div>
+            <div class="clear"></div>
+            <div class="tab_titles">幻灯片：</div>
+            <div class="tab_infoss">
+                <div id="ImageControl" style="float: left">
+                    <input type="file" id="singleImg_upload" />
+                    @Html.Raw(ViewBag.Images)
+                    @Html.HiddenFor(model => model.ImagesHtml, new { @id = "hidImageHtml" })
+                    @Html.HiddenFor(model => model.ShowImage, new { @id = "hidPath" })
+                </div>
+                <small>*</small>
             </div>
             <div class="clear"></div>
             <p>

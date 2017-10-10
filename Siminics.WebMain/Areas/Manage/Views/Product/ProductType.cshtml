@@ -25,6 +25,7 @@
                 <td width="80">类型编号</td>
                 <td width="">产品类型名称</td>
                 <td width="140">排序</td>
+                <td>幻灯片</td>
                 <td width="110">操作</td>
             </tr>
             @foreach (ProductModel info in ViewBag.Info)
@@ -33,6 +34,12 @@
                     <td>@info.ProductId</td>
                     <td>@info.productname</td>
                     <td>@info.sort</td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(info.ImageUrl))
+                        {
+                            <img src="@info.ImageUrl" width="300" height="150" />
+                        }
+                    </td>
                     <td class="tright">
                         <div class="t_position">
                             <div class="r_pull_down">

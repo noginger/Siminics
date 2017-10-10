@@ -230,6 +230,7 @@
     <Content Include="Content\Images\b_on.png" />
     <Content Include="Content\Images\chanpin.png" />
     <Content Include="Content\Images\chu_renzheng.png" />
+    <Content Include="Content\Images\commonq.png" />
     <Content Include="Content\Images\contactus.png" />
     <Content Include="Content\Images\correct.png" />
     <Content Include="Content\Images\corss.png" />
@@ -260,6 +261,7 @@
     <Content Include="Content\Images\jian.jpg" />
     <Content Include="Content\Images\jisheng_gray.png" />
     <Content Include="Content\Images\jisheng_lv.png" />
+    <Content Include="Content\Images\joinus.png" />
     <Content Include="Content\Images\lead_out.png" />
     <Content Include="Content\Images\left.png" />
     <Content Include="Content\Images\left_arrow.png" />

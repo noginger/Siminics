@@ -43,19 +43,19 @@
       <publishTime>08/21/2017 15:40:11</publishTime>
     </File>
     <File Include="Areas/Manage/Views/Product/AddType.cshtml">
-      <publishTime>08/21/2017 17:10:47</publishTime>
+      <publishTime>09/29/2017 10:57:30</publishTime>
     </File>
     <File Include="Areas/Manage/Views/Product/Edit.cshtml">
       <publishTime>08/21/2017 15:54:40</publishTime>
     </File>
     <File Include="Areas/Manage/Views/Product/EditType.cshtml">
-      <publishTime>08/22/2017 14:24:57</publishTime>
+      <publishTime>09/29/2017 11:06:30</publishTime>
     </File>
     <File Include="Areas/Manage/Views/Product/Index.cshtml">
       <publishTime>08/29/2017 14:41:36</publishTime>
     </File>
     <File Include="Areas/Manage/Views/Product/ProductType.cshtml">
-      <publishTime>08/29/2017 14:50:16</publishTime>
+      <publishTime>09/29/2017 11:12:02</publishTime>
     </File>
     <File Include="Areas/Manage/Views/Slide/Add.cshtml">
       <publishTime>08/25/2017 15:31:28</publishTime>
@@ -214,16 +214,16 @@
       <publishTime>06/18/2015 20:19:46</publishTime>
     </File>
     <File Include="bin/Siminics.BL.dll">
-      <publishTime>09/05/2017 09:38:15</publishTime>
+      <publishTime>10/10/2017 10:08:20</publishTime>
     </File>
     <File Include="bin/Siminics.DAL.dll">
-      <publishTime>09/05/2017 09:38:14</publishTime>
+      <publishTime>10/10/2017 10:08:20</publishTime>
     </File>
     <File Include="bin/Siminics.Model.dll">
-      <publishTime>09/05/2017 09:38:13</publishTime>
+      <publishTime>10/10/2017 10:08:19</publishTime>
     </File>
     <File Include="bin/Siminics.WebMain.dll">
-      <publishTime>09/05/2017 09:38:24</publishTime>
+      <publishTime>10/10/2017 10:08:29</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>01/28/2015 04:04:30</publishTime>
@@ -570,6 +570,9 @@
     <File Include="Content/Images/chu_renzheng.png">
       <publishTime>08/15/2017 16:53:56</publishTime>
     </File>
+    <File Include="Content/Images/commonq.png">
+      <publishTime>09/12/2017 15:54:52</publishTime>
+    </File>
     <File Include="Content/Images/contactus.png">
       <publishTime>09/04/2017 16:59:06</publishTime>
     </File>
@@ -659,6 +662,9 @@
     </File>
     <File Include="Content/Images/jisheng_lv.png">
       <publishTime>08/15/2017 16:53:56</publishTime>
+    </File>
+    <File Include="Content/Images/joinus.png">
+      <publishTime>09/12/2017 15:54:52</publishTime>
     </File>
     <File Include="Content/Images/lead_out.png">
       <publishTime>08/15/2017 16:53:56</publishTime>
@@ -2908,13 +2914,13 @@
       <publishTime>09/04/2017 16:59:26</publishTime>
     </File>
     <File Include="Views/Goods/Index.cshtml">
-      <publishTime>08/31/2017 11:00:18</publishTime>
+      <publishTime>09/29/2017 10:48:41</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
       <publishTime>08/30/2017 17:38:42</publishTime>
     </File>
     <File Include="Views/JoinUs/Index.cshtml">
-      <publishTime>09/04/2017 17:39:33</publishTime>
+      <publishTime>09/12/2017 15:55:15</publishTime>
     </File>
     <File Include="Views/NewsCenter/Detail.cshtml">
       <publishTime>08/31/2017 15:08:43</publishTime>
@@ -2926,13 +2932,13 @@
       <publishTime>08/30/2017 17:15:59</publishTime>
     </File>
     <File Include="Views/Shared/_Main_Footer.cshtml">
-      <publishTime>09/04/2017 15:15:53</publishTime>
+      <publishTime>09/22/2017 14:56:21</publishTime>
     </File>
     <File Include="Views/Shared/_Main_Frame.cshtml">
       <publishTime>09/01/2017 16:25:45</publishTime>
     </File>
     <File Include="Views/Shared/_Main_Nav.cshtml">
-      <publishTime>09/04/2017 15:15:22</publishTime>
+      <publishTime>09/12/2017 15:31:44</publishTime>
     </File>
     <File Include="Views/Shared/_Manage_Frame.cshtml">
       <publishTime>08/15/2017 16:57:16</publishTime>
@@ -2944,7 +2950,7 @@
       <publishTime>09/04/2017 17:51:58</publishTime>
     </File>
     <File Include="Views/Surport/CommonQuestion.cshtml">
-      <publishTime>09/04/2017 17:39:22</publishTime>
+      <publishTime>09/12/2017 15:55:35</publishTime>
     </File>
     <File Include="Views/Surport/Detail.cshtml">
       <publishTime>08/31/2017 15:57:01</publishTime>

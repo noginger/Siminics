@@ -24,13 +24,13 @@ namespace Siminics.WebMain.Controllers
             DbQueryParamtersNoPage paramters=new DbQueryParamtersNoPage()
             {
                 PageSize = 1,
-                Condition = string.Format(" position={0}", (int)EnumConst.BannerPosition.Product),
+                Condition = string.Format(" productid={0}", typeId),
                 OrderBy = "Order by sort asc",
             };
 
-            List<SlideModel> models = new SlideBL().GetItems(paramters);
+            List<ProductModel> models = new ProductBL().GetItems(paramters);
 
-            ViewBag.Slide = models.Find(o => o.id > 0);
+            ViewBag.Slide = models.Find(o => o.ProductId > 0);
 
             paramters=new DbQueryParamtersNoPage()
             {
@@ -40,6 +40,12 @@ namespace Siminics.WebMain.Controllers
             };
 
             List<ProductModelEntity> productModels = new ProductBL().GetModelItems(paramters);
+
+            if (!productModels.Any(o => o.ModelId > 0))
+            {
+                ViewBag.ProductModels = new List<ProductModelEntity>();
+                return View();
+            }
 
             var images = new ProductBL().GetModelImages(productModels.Select(o => o.ModelId).ToList());
 

@@ -223,7 +223,7 @@ namespace Siminics.WebMain.Areas.Manage.Controllers
             int p = WebUtils.GetQueryInt("p", 1);
             DbQueryParamters paramters = new DbQueryParamters()
             {
-                ColumnFields = new[] { "ProductId", "productname","sort" },
+                ColumnFields = new[] { "ProductId", "productname","sort","imageurl" },
                 PageIndex = p,
                 PageSize = 25,
                 OrderBy = "Order By ProductId Desc",
@@ -246,7 +246,7 @@ namespace Siminics.WebMain.Areas.Manage.Controllers
         [ValidateInput(false)]
         public ActionResult AddType(ProductViewModel entity)
         {
-            var result = new ProductBL().Add(entity.ProductName,entity.Sort);
+            var result = new ProductBL().Add(entity.ProductName,entity.Sort,entity.ShowImage);
             if (result.ResultType == OperationResultType.Success)
                 return RedirectToAction("ProductType");
             else
@@ -274,8 +274,12 @@ namespace Siminics.WebMain.Areas.Manage.Controllers
             {
                 ProductName = model.productname,
                 ProductId = model.ProductId,
-                Sort = model.sort
+                Sort = model.sort,
+                ShowImage = model.ImageUrl
             };
+
+            entity.ImagesHtml = string.IsNullOrEmpty(model.ImageUrl) ? "" : "<img src=" + model.ImageUrl + " width='230' height='230' id='upimg'>";
+            ViewBag.Images = entity.ImagesHtml;
 
             return View(entity);
         }
